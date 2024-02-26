@@ -1,0 +1,138 @@
+@import "header";
+@import "footer";
+@import "init";
+@import "constants";
+
+
+body{
+    background:#f2f2f2;
+}
+
+.header{
+    width:100%;
+    height:$navHeight;
+    background: $themeColor;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    z-index: 100;
+}
+
+
+.main{
+    width: 100%;
+    margin: 0 auto;
+    //background: green;
+    margin-top: $navHeight+20px;
+
+    .wrapper{
+        width: $pageWidth;
+        margin: 0 auto;
+        overflow: hidden;
+        .main-content-wrapper{
+            float: left;
+            width: 356px;
+            background: #f2f2f2;
+        }
+    }
+}
+
+.main{
+    .wrapper{
+        .sidebar-wrapper{
+          float: right;
+          width: $mainBoxWidth;
+          background: #fff;
+          .modle-wrapper{
+            text-align:center;
+            height:200px;
+            margin-top: 100px;
+            .title {
+              color: $mainFontColor;
+              font-size: 24px;
+              font-weight: 400;
+            }
+          }
+          .prompt-wrapper{
+            float:left;
+            height:200px;
+            margin-top: 100px;
+            .prompt-textarea{
+              margin-top: -15px;
+              margin-left: 100px;
+              width: 100%;
+              resize: none;
+              outline: none;
+              border: 1px solid #ccc;
+              border-radius:5px;
+              font-size: 14px;
+              padding: 6px 10px;
+              box-sizing: border-box;
+            }
+          }
+          .text-wrapper{
+            height:200px;
+            float:left;
+            width: $mainBoxWidth;
+            .comment-textarea{
+              margin-top: 10px;
+              width: 100%;
+              resize: none;
+              outline: none;
+              border: 1px solid #ccc;
+              border-radius:5px;
+              font-size: 14px;
+              padding: 6px 10px;
+              box-sizing: border-box;
+            }
+            .submit-btn-group{
+              text-align: right;
+              margin-top: 15px;
+              .submit-btn{
+                background: $themeColor;
+                border: none;
+                padding: 6px  10px;
+                color: #fff;
+                border-radius: 5px;
+                cursor: pointer;
+              }
+            }
+          }
+          .response-wrapper{
+            float:left;
+            height:200px;
+            margin-top: 20px;
+            margin-left: 20px;
+          }
+        }
+    }
+}
+
+.main{
+  .wrapper{
+    .main-content-wrapper{
+      background: #fff;
+      padding: 20px;
+      box-sizing: border-box;
+      .news-wrapper{
+        .model-choice{
+          height:500px;
+          line-height: $newsInfoHeight;
+          overflow: hidden;
+          margin-top: 20px;
+          color: $assistFontColor;
+          font-size: 14px;
+        }
+        .prompt-choice{
+          height:500px;
+          line-height: $newsInfoHeight;
+          overflow: hidden;
+          margin-top: 20px;
+          color: $assistFontColor;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

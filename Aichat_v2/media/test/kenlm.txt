@@ -1,0 +1,38 @@
+1、git clone https://github.com/kpu/kenlm.git
+2、cd kenlm
+3、mkdir -p build
+4、cmake ..（此步报错，执行一下命令sudo apt install libboost-dev libboost-test-dev；sudo apt-get install libboost-all-dev；
+cd ~ && wget -O - https://bitbucket.org/eigen/eigen/get/3.2.8.tar.bz2 |tar xj；sudo apt-get install libeigen3-dev；
+sudo apt-get install libbz2-dev liblzma-dev)
+5、make -j 4 (此步若报错，原因GNU’make -j’会导致CPU高负载和桌面无响，去掉-j 4，直接make)
+6、sudo make install
+7、python安装pip install https://github.com/kpu/kenlm/archive/master.zip
+8、准备数据：将要使用的数据分好词，去掉重复的值，一行一个文本。
+9、进入build/目录，执行操作：
+bin/lmplz -o 3 --verbose header --text /app/kenlm/test.txt --arpa /app/kenlm/test.arpa
+-o 为必须的参数，3表示3-gram
+--verbose header表示向ARPA文件开头添加详细的头文件（可选）
+--text 训练的语料库
+--arpa 训练生成的语言模型，在这之后为了减少空间可以将其变成二进制格式的
+10、为减少空间，提高加载速度，需要将生成的.arpa格式的语言模型变成二进制格式的.bin或.klm格式的：
+bin/build_binary trie -a 22 -q 8 -b 8 /app/kenlm/test.arpa /app/kenlm/test.bin
+11、运行test.py，得到语句分数
+import kenlm
+import time
+model = kenlm.Model('/app/kenlm/test.bin')
+test_list = ["我是一名程序员",    "是一名程序员我",    "我 是 一名 程序员",    "是 一名 程序员 我",    "一名 是 程序员 我",    "一名 程序员 是 我",    "我 我 我 啊 嗯 你 一名 是 吗 噢噢 程序员 是 吗 我",    "我 等一下 去 交 进去 的 觉得 我 不卡 我 要 能 给我 媳妇 上 了 取得 这样的 他 方便 一点 他 就 觉得 9个人 要 办个 手续 这样 的"]
+for i in test_list:
+   time_start = time.time()
+   print(i, ': ', model.score(i, bos=True, eos=True), 'tivime: ', time.time() - time_start)
+
+我是一名程序员 :  -10.438760757446289 tivime:  6.67572021484375e-06
+是一名程序员我 :  -10.438760757446289 tivime:  3.337860107421875e-06
+我 是 一名 程序员 :  -18.136924743652344 tivime:  1.1444091796875e-05
+是 一名 程序员 我 :  -18.98568344116211 tivime:  5.0067901611328125e-06
+一名 是 程序员 我 :  -19.807300567626953 tivime:  5.7220458984375e-06
+一名 程序员 是 我 :  -19.705833435058594 tivime:  4.5299530029296875e-06
+我 我 我 啊 嗯 你 一名 是 吗 噢噢 程序员 是 吗 我 :  -46.51474380493164 tivime:  1.5735626220703125e-05
+我 等一下 去 交 进去 的 觉得 我 不卡 我 要 能 给我 媳妇 上 了 取得 这样的 他 方便 一点 他 就 觉得 9个人 要 办个 手续 这样 的 :  -106.53054809570312 tivime:  4.935264587402344e-05
+
+
+4386

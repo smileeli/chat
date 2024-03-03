@@ -1,0 +1,1966 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+February 25, 2024 - 20:43:25
+Django version 3.2.4, using settings 'Aichat.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+February 25, 2024 - 20:44:21
+Django version 3.2.4, using settings 'Aichat.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[25/Feb/2024 20:45:14] "GET / HTTP/1.1" 200 2532
+[25/Feb/2024 20:45:14] "GET /static/js/aichatajax.min.js HTTP/1.1" 304 0
+[25/Feb/2024 20:45:14] "GET /static/js/aichat.min.js HTTP/1.1" 304 0
+文心一言 请回答安全 你是谁
+{"id":"as-tb0cuukhay","object":"chat.completion","created":1708865124,"result":"您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。\n\n至于“安全你是谁”这个问题，我并不知道其意义，请提供更多上下文信息或问题，我将尽力回答。","is_truncated":false,"need_clear_history":false,"usage":{"prompt_tokens":4,"completion_tokens":76,"total_tokens":80}}
+您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+
+至于“安全你是谁”这个问题，我并不知道其意义，请提供更多上下文信息或问题，我将尽力回答。
+[25/Feb/2024 20:45:24] "POST /chat/response/ HTTP/1.1" 200 761
+Not Found: /http:/8.142.41.185/
+[25/Feb/2024 20:45:26] "GET http://8.142.41.185/ HTTP/1.1" 404 1802
+文心一言 请认真回答 你能做什么
+{"id":"as-wn1gek91zw","object":"chat.completion","created":1708865164,"result":"作为一个人工智能语言模型，我可以回答各种问题，提供各种信息，帮助您解决问题和获取知识。无论是学术、职业、生活还是娱乐等方面的问题，只要您有需要，我都会尽力提供帮助。同时，我也可以学习和改进以更好地满足您的需求。","is_truncated":false,"need_clear_history":false,"usage":{"prompt_tokens":5,"completion_tokens":56,"total_tokens":61}}
+作为一个人工智能语言模型，我可以回答各种问题，提供各种信息，帮助您解决问题和获取知识。无论是学术、职业、生活还是娱乐等方面的问题，只要您有需要，我都会尽力提供帮助。同时，我也可以学习和改进以更好地满足您的需求。
+[25/Feb/2024 20:46:04] "POST /chat/response/ HTTP/1.1" 200 670
+chatgpt 请认真回答 你能做什么
+该模型未配置
+[25/Feb/2024 20:46:13] "POST /chat/response/ HTTP/1.1" 200 76
+Not Found: /http:/8.142.41.185/
+[25/Feb/2024 21:50:57] "GET http://8.142.41.185/ HTTP/1.1" 404 1802
+[25/Feb/2024 22:23:24] "GET / HTTP/1.1" 200 2532
+[25/Feb/2024 22:25:59] "GET / HTTP/1.1" 200 2532
+[25/Feb/2024 23:09:13] "GET / HTTP/1.1" 200 2532
+[25/Feb/2024 23:09:13] "GET /static/css/aichat.min.css HTTP/1.1" 304 0
+[25/Feb/2024 23:09:13] "GET /static/js/aichat.min.js HTTP/1.1" 304 0
+[25/Feb/2024 23:09:13] "GET /static/js/aichatajax.min.js HTTP/1.1" 304 0
+[25/Feb/2024 23:38:35,483] - Broken pipe from ('167.94.145.60', 55178)
+
+[25/Feb/2024 23:38:38] "GET / HTTP/1.1" 200 2532
+[25/Feb/2024 23:38:38,757] - Broken pipe from ('167.94.145.60', 37912)
+
+[25/Feb/2024 23:38:41] "GET / HTTP/1.1" 200 2532
+[25/Feb/2024 23:38:42] code 505, message Invalid HTTP version (2.0)
+[25/Feb/2024 23:38:42] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[25/Feb/2024 23:38:42] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /favicon.ico
+[25/Feb/2024 23:40:51] "GET /favicon.ico HTTP/1.1" 404 2347
+[25/Feb/2024 23:40:51] "GET / HTTP/1.1" 200 2532
+[25/Feb/2024 23:49:35] "GET / HTTP/1.1" 200 2532
+[25/Feb/2024 23:50:57] "GET / HTTP/1.1" 200 2532
+Not Found: /boaform/admin/formLogin
+[26/Feb/2024 00:47:45] "POST /boaform/admin/formLogin HTTP/1.1" 404 2387
+[26/Feb/2024 02:01:44] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 02:02:46] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 02:12:50] code 400, message Bad request version ('À\x13À')
+[26/Feb/2024 02:12:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Feb/2024 02:12:51] code 400, message Bad request version ('À(À$À\x14À')
+[26/Feb/2024 02:12:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Feb/2024 02:20:08] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 02:29:41] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 02:29:41] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[26/Feb/2024 02:29:41] "GET /favicon.ico HTTP/1.1" 404 2350
+Not Found: /robots.txt
+[26/Feb/2024 02:29:41] "GET /robots.txt HTTP/1.1" 404 2347
+[26/Feb/2024 02:29:41] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[26/Feb/2024 02:29:42] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[26/Feb/2024 02:29:42] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[26/Feb/2024 02:58:33] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 03:24:56,350] - Broken pipe from ('167.94.146.51', 44586)
+
+[26/Feb/2024 03:24:59] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 03:24:59,835] - Broken pipe from ('167.94.146.51', 59236)
+
+[26/Feb/2024 03:25:03] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 03:25:03] code 505, message Invalid HTTP version (2.0)
+[26/Feb/2024 03:25:03] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[26/Feb/2024 03:25:04] "GET /favicon.ico HTTP/1.1" 404 2347
+[26/Feb/2024 03:32:34] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 03:35:03] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 03:37:14] "GET / HTTP/1.1" 200 2532
+Not Found: /Autodiscover/Autodiscover.xml
+[26/Feb/2024 03:47:26] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 2405
+Invalid HTTP_HOST header: 'azenv.net'. You may need to add 'azenv.net' to ALLOWED_HOSTS.
+Bad Request: /http:/azenv.net/
+[26/Feb/2024 04:19:45] "GET http://azenv.net/ HTTP/1.1" 400 65222
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[26/Feb/2024 04:33:06] "GET / HTTP/1.0" 400 65081
+[26/Feb/2024 05:00:03,379] - Broken pipe from ('167.248.133.52', 38416)
+
+[26/Feb/2024 05:00:06] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 05:00:06,834] - Broken pipe from ('167.248.133.52', 54472)
+
+[26/Feb/2024 05:00:10] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 05:00:10] code 505, message Invalid HTTP version (2.0)
+[26/Feb/2024 05:00:10] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[26/Feb/2024 05:00:11] "GET /favicon.ico HTTP/1.1" 404 2347
+[26/Feb/2024 05:55:12] "GET / HTTP/1.1" 200 2532
+Not Found: /manager/html
+[26/Feb/2024 07:22:22] "GET /manager/html HTTP/1.1" 404 2350
+[26/Feb/2024 08:33:12] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[26/Feb/2024 09:43:05] "GET /.env HTTP/1.1" 404 2326
+[26/Feb/2024 09:43:06] "POST / HTTP/1.1" 200 2532
+[26/Feb/2024 09:43:31] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 09:43:51] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 10:43:02] "GET / HTTP/1.1" 200 2532
+Not Found: /sql/sql/index.php
+[26/Feb/2024 10:53:13] "GET /sql/sql/index.php?lang=en HTTP/1.1" 404 2373
+Not Found: /_phpmyadmin/index.php
+[26/Feb/2024 10:53:13] "GET /_phpmyadmin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phpmyadmin/index.php
+[26/Feb/2024 10:53:13] "GET /phpmyadmin/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /php-myadmin/index.php
+[26/Feb/2024 10:53:14] "GET /php-myadmin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phpmyadmin2022/index.php
+[26/Feb/2024 10:53:15] "GET /phpmyadmin2022/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /phpMyAdmin-latest-all-languages/index.php
+[26/Feb/2024 10:53:15] "GET /phpMyAdmin-latest-all-languages/index.php?lang=en HTTP/1.1" 404 2445
+Not Found: /sql/phpMyAdmin2/index.php
+[26/Feb/2024 10:53:15] "GET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1" 404 2397
+Not Found: /sql/phpmyadmin4/index.php
+[26/Feb/2024 10:53:15] "GET /sql/phpmyadmin4/index.php?lang=en HTTP/1.1" 404 2397
+Not Found: /db/dbadmin/index.php
+[26/Feb/2024 10:53:15] "GET /db/dbadmin/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /phpmyadmin3/index.php
+[26/Feb/2024 10:53:16] "GET /phpmyadmin3/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /db/webdb/index.php
+[26/Feb/2024 10:53:16] "GET /db/webdb/index.php?lang=en HTTP/1.1" 404 2376
+Not Found: /phpMyAdmin_/index.php
+[26/Feb/2024 10:53:16] "GET /phpMyAdmin_/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phpmyadmin2018/index.php
+[26/Feb/2024 10:53:17] "GET /phpmyadmin2018/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /phpmyadmin1/index.php
+[26/Feb/2024 10:53:17] "GET /phpmyadmin1/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /db/index.php
+[26/Feb/2024 10:53:17] "GET /db/index.php?lang=en HTTP/1.1" 404 2358
+Not Found: /phpmy-admin/index.php
+[26/Feb/2024 10:53:17] "GET /phpmy-admin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phppma/index.php
+[26/Feb/2024 10:53:17] "GET /phppma/index.php?lang=en HTTP/1.1" 404 2370
+Not Found: /1phpmyadmin/index.php
+[26/Feb/2024 10:53:17] "GET /1phpmyadmin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /__phpmyadmin/index.php
+[26/Feb/2024 10:53:17] "GET /__phpmyadmin/index.php?lang=en HTTP/1.1" 404 2388
+Not Found: /sqlmanager/index.php
+[26/Feb/2024 10:53:17] "GET /sqlmanager/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /phpmyadmin2013/index.php
+[26/Feb/2024 10:53:18] "GET /phpmyadmin2013/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /sql/websql/index.php
+[26/Feb/2024 10:53:18] "GET /sql/websql/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /admin/phpmyadmin/index.php
+[26/Feb/2024 10:53:18] "GET /admin/phpmyadmin/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /phpMyAdmin-4.9.7/index.php
+[26/Feb/2024 10:53:18] "GET /phpMyAdmin-4.9.7/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /db/phpmyadmin/index.php
+[26/Feb/2024 10:53:18] "GET /db/phpmyadmin/index.php?lang=en HTTP/1.1" 404 2391
+Not Found: /sql/phpmy-admin/index.php
+[26/Feb/2024 10:53:18] "GET /sql/phpmy-admin/index.php?lang=en HTTP/1.1" 404 2397
+Not Found: /phpMyAdmin-4/index.php
+[26/Feb/2024 10:53:18] "GET /phpMyAdmin-4/index.php?lang=en HTTP/1.1" 404 2388
+Not Found: /phpMyAdmin/index.php
+[26/Feb/2024 10:53:18] "GET /phpMyAdmin/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /phpMyAdmin1/index.php
+[26/Feb/2024 10:53:19] "GET /phpMyAdmin1/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phpmyAdmin/index.php
+[26/Feb/2024 10:53:19] "GET /phpmyAdmin/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /admin/db/index.php
+[26/Feb/2024 10:53:19] "GET /admin/db/index.php?lang=en HTTP/1.1" 404 2376
+Not Found: /sql/sql-admin/index.php
+[26/Feb/2024 10:53:19] "GET /sql/sql-admin/index.php?lang=en HTTP/1.1" 404 2391
+Not Found: /MyAdmin/index.php
+[26/Feb/2024 10:53:19] "GET /MyAdmin/index.php?lang=en HTTP/1.1" 404 2373
+Not Found: /dbadmin/index.php
+[26/Feb/2024 10:53:19] "GET /dbadmin/index.php?lang=en HTTP/1.1" 404 2373
+Not Found: /db/phpMyAdmin-3/index.php
+[26/Feb/2024 10:53:19] "GET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.1" 404 2397
+Not Found: /PMA/index.php
+[26/Feb/2024 10:53:19] "GET /PMA/index.php?lang=en HTTP/1.1" 404 2361
+Not Found: /phpmyadmin2017/index.php
+[26/Feb/2024 10:53:19] "GET /phpmyadmin2017/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /mysql/admin/index.php
+[26/Feb/2024 10:53:20] "GET /mysql/admin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /sql/sqlweb/index.php
+[26/Feb/2024 10:53:20] "GET /sql/sqlweb/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /db/webadmin/index.php
+[26/Feb/2024 10:53:20] "GET /db/webadmin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phpMyadmin/index.php
+[26/Feb/2024 10:53:20] "GET /phpMyadmin/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /phpmyadmin2020/index.php
+[26/Feb/2024 10:53:20] "GET /phpmyadmin2020/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /mysqladmin/index.php
+[26/Feb/2024 10:53:20] "GET /mysqladmin/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /sql/php-myadmin/index.php
+[26/Feb/2024 10:53:21] "GET /sql/php-myadmin/index.php?lang=en HTTP/1.1" 404 2397
+Not Found: /mysql/mysqlmanager/index.php
+[26/Feb/2024 10:53:21] "GET /mysql/mysqlmanager/index.php?lang=en HTTP/1.1" 404 2406
+Not Found: /phpMyAdmin-latest-english/index.php
+[26/Feb/2024 10:53:21] "GET /phpMyAdmin-latest-english/index.php?lang=en HTTP/1.1" 404 2427
+Not Found: /phpMyAdmin-3/index.php
+[26/Feb/2024 10:53:21] "GET /phpMyAdmin-3/index.php?lang=en HTTP/1.1" 404 2388
+Not Found: /administrator/phpmyadmin/index.php
+[26/Feb/2024 10:53:21] "GET /administrator/phpmyadmin/index.php?lang=en HTTP/1.1" 404 2424
+Not Found: /phpMyAdmin-5.1.3/index.php
+[26/Feb/2024 10:53:21] "GET /phpMyAdmin-5.1.3/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /administrator/web/index.php
+[26/Feb/2024 10:53:21] "GET /administrator/web/index.php?lang=en HTTP/1.1" 404 2403
+Not Found: /administrator/phpMyAdmin/index.php
+[26/Feb/2024 10:53:21] "GET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 2424
+Not Found: /admin/web/index.php
+[26/Feb/2024 10:53:22] "GET /admin/web/index.php?lang=en HTTP/1.1" 404 2379
+Not Found: /phpMyAdmin-5/index.php
+[26/Feb/2024 10:53:22] "GET /phpMyAdmin-5/index.php?lang=en HTTP/1.1" 404 2388
+Not Found: /phpMyAdmin-5.2.0-all-languages/index.php
+[26/Feb/2024 10:53:22] "GET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en HTTP/1.1" 404 2442
+Not Found: /db/myadmin/index.php
+[26/Feb/2024 10:53:22] "GET /db/myadmin/index.php?lang=en HTTP/1.1" 404 2382
+Not Found: /phpmyadmin4/index.php
+[26/Feb/2024 10:53:22] "GET /phpmyadmin4/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phpMyAdmin4/index.php
+[26/Feb/2024 10:53:22] "GET /phpMyAdmin4/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /sql/webadmin/index.php
+[26/Feb/2024 10:53:22] "GET /sql/webadmin/index.php?lang=en HTTP/1.1" 404 2388
+Not Found: /phpMyAdmin-5.1.2/index.php
+[26/Feb/2024 10:53:22] "GET /phpMyAdmin-5.1.2/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /wpma5.2/index.php
+[26/Feb/2024 10:53:22] "GET /wpma5.2/index.php?lang=en HTTP/1.1" 404 2373
+Not Found: /phpMyAdmin3/index.php
+[26/Feb/2024 10:53:23] "GET /phpMyAdmin3/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /mysql/web/index.php
+[26/Feb/2024 10:53:23] "GET /mysql/web/index.php?lang=en HTTP/1.1" 404 2379
+Not Found: /phpmyadmin2012/index.php
+[26/Feb/2024 10:53:23] "GET /phpmyadmin2012/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /mysqlmanager/index.php
+[26/Feb/2024 10:53:23] "GET /mysqlmanager/index.php?lang=en HTTP/1.1" 404 2388
+Not Found: /sql/phpmyadmin5/index.php
+[26/Feb/2024 10:53:23] "GET /sql/phpmyadmin5/index.php?lang=en HTTP/1.1" 404 2397
+Not Found: /db/dbweb/index.php
+[26/Feb/2024 10:53:23] "GET /db/dbweb/index.php?lang=en HTTP/1.1" 404 2376
+Not Found: /db/phpMyAdmin/index.php
+[26/Feb/2024 10:53:23] "GET /db/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 2391
+Not Found: /phpMyAdmin2/index.php
+[26/Feb/2024 10:53:23] "GET /phpMyAdmin2/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /shopdb/index.php
+[26/Feb/2024 10:53:24] "GET /shopdb/index.php?lang=en HTTP/1.1" 404 2370
+Not Found: /administrator/pma/index.php
+[26/Feb/2024 10:53:24] "GET /administrator/pma/index.php?lang=en HTTP/1.1" 404 2403
+Not Found: /db/phpmyadmin4/index.php
+[26/Feb/2024 10:53:24] "GET /db/phpmyadmin4/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /admin/pma/index.php
+[26/Feb/2024 10:53:24] "GET /admin/pma/index.php?lang=en HTTP/1.1" 404 2379
+Not Found: /db/phpmyadmin5/index.php
+[26/Feb/2024 10:53:24] "GET /db/phpmyadmin5/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /admin/index.php
+[26/Feb/2024 10:53:24] "GET /admin/index.php?lang=en HTTP/1.1" 404 2367
+Not Found: /phpMyAdmin5.1/index.php
+[26/Feb/2024 10:53:24] "GET /phpMyAdmin5.1/index.php?lang=en HTTP/1.1" 404 2391
+Not Found: /mysql-admin/index.php
+[26/Feb/2024 10:53:24] "GET /mysql-admin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /database/index.php
+[26/Feb/2024 10:53:24] "GET /database/index.php?lang=en HTTP/1.1" 404 2376
+Not Found: /phpmyadmin2015/index.php
+[26/Feb/2024 10:53:25] "GET /phpmyadmin2015/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /administrator/PMA/index.php
+[26/Feb/2024 10:53:25] "GET /administrator/PMA/index.php?lang=en HTTP/1.1" 404 2403
+Not Found: /db/phpMyAdmin-5/index.php
+[26/Feb/2024 10:53:25] "GET /db/phpMyAdmin-5/index.php?lang=en HTTP/1.1" 404 2397
+Not Found: /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php
+[26/Feb/2024 10:53:25] "GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en HTTP/1.1" 404 2499
+Not Found: /sql/sqladmin/index.php
+[26/Feb/2024 10:53:25] "GET /sql/sqladmin/index.php?lang=en HTTP/1.1" 404 2388
+Not Found: /php-my-admin/index.php
+[26/Feb/2024 10:53:25] "GET /php-my-admin/index.php?lang=en HTTP/1.1" 404 2388
+Not Found: /index.php
+[26/Feb/2024 10:53:25] "GET /index.php?lang=en HTTP/1.1" 404 2349
+Not Found: /administrator/db/index.php
+[26/Feb/2024 10:53:25] "GET /administrator/db/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /sql/phpMyAdmin/index.php
+[26/Feb/2024 10:53:26] "GET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /myadmin/index.php
+[26/Feb/2024 10:53:26] "GET /myadmin/index.php?lang=en HTTP/1.1" 404 2373
+Not Found: /phpmyadmin5/index.php
+[26/Feb/2024 10:53:26] "GET /phpmyadmin5/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /db/phpmyadmin3/index.php
+[26/Feb/2024 10:53:26] "GET /db/phpmyadmin3/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /sql/myadmin/index.php
+[26/Feb/2024 10:53:26] "GET /sql/myadmin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /admin/phpMyAdmin/index.php
+[26/Feb/2024 10:53:26] "GET /admin/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /phpMyAdmin-4.9.10-all-languages/index.php
+[26/Feb/2024 10:53:26] "GET /phpMyAdmin-4.9.10-all-languages/index.php?lang=en HTTP/1.1" 404 2445
+Not Found: /phpMyAdmin-5.3.0/index.php
+[26/Feb/2024 10:53:26] "GET /phpMyAdmin-5.3.0/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /mysql/pMA/index.php
+[26/Feb/2024 10:53:26] "GET /mysql/pMA/index.php?lang=en HTTP/1.1" 404 2379
+Not Found: /phpmyadmin2021/index.php
+[26/Feb/2024 10:53:27] "GET /phpmyadmin2021/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /2phpmyadmin/index.php
+[26/Feb/2024 10:53:27] "GET /2phpmyadmin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phpmyadmin2014/index.php
+[26/Feb/2024 10:53:27] "GET /phpmyadmin2014/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /pma/index.php
+[26/Feb/2024 10:53:27] "GET /pma/index.php?lang=en HTTP/1.1" 404 2361
+Not Found: /phpMyAdmin-5.1.0/index.php
+[26/Feb/2024 10:53:27] "GET /phpMyAdmin-5.1.0/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /admin/sysadmin/index.php
+[26/Feb/2024 10:53:27] "GET /admin/sysadmin/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /phpmyadmin_/index.php
+[26/Feb/2024 10:53:27] "GET /phpmyadmin_/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /mysql/dbadmin/index.php
+[26/Feb/2024 10:53:27] "GET /mysql/dbadmin/index.php?lang=en HTTP/1.1" 404 2391
+Not Found: /program/index.php
+[26/Feb/2024 10:53:28] "GET /program/index.php?lang=en HTTP/1.1" 404 2373
+Not Found: /sql/webdb/index.php
+[26/Feb/2024 10:53:28] "GET /sql/webdb/index.php?lang=en HTTP/1.1" 404 2379
+Not Found: /phpmyadmin2011/index.php
+[26/Feb/2024 10:53:28] "GET /phpmyadmin2011/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /administrator/admin/index.php
+[26/Feb/2024 10:53:28] "GET /administrator/admin/index.php?lang=en HTTP/1.1" 404 2409
+Not Found: /db/phpMyAdmin-4/index.php
+[26/Feb/2024 10:53:28] "GET /db/phpMyAdmin-4/index.php?lang=en HTTP/1.1" 404 2397
+Not Found: /phpmyadmin2/index.php
+[26/Feb/2024 10:53:28] "GET /phpmyadmin2/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phpmy/index.php
+[26/Feb/2024 10:53:28] "GET /phpmy/index.php?lang=en HTTP/1.1" 404 2367
+Not Found: /phpMyAdmin5.2/index.php
+[26/Feb/2024 10:53:28] "GET /phpMyAdmin5.2/index.php?lang=en HTTP/1.1" 404 2391
+Not Found: /phpMyAdmin-5.3.0-all-languages/index.php
+[26/Feb/2024 10:53:29] "GET /phpMyAdmin-5.3.0-all-languages/index.php?lang=en HTTP/1.1" 404 2442
+Not Found: /db/db-admin/index.php
+[26/Feb/2024 10:53:29] "GET /db/db-admin/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /phpmyadmin2019/index.php
+[26/Feb/2024 10:53:29] "GET /phpmyadmin2019/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /phpMyAdmin-5.1.1/index.php
+[26/Feb/2024 10:53:29] "GET /phpMyAdmin-5.1.1/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /admin/sqladmin/index.php
+[26/Feb/2024 10:53:29] "GET /admin/sqladmin/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /sql/phpmyadmin3/index.php
+[26/Feb/2024 10:53:29] "GET /sql/phpmyadmin3/index.php?lang=en HTTP/1.1" 404 2397
+Not Found: /db/phpMyAdmin3/index.php
+[26/Feb/2024 10:53:29] "GET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /_phpmyadmin_/index.php
+[26/Feb/2024 10:53:29] "GET /_phpmyadmin_/index.php?lang=en HTTP/1.1" 404 2388
+Not Found: /phpMyAdmin-5.2.0/index.php
+[26/Feb/2024 10:53:30] "GET /phpMyAdmin-5.2.0/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /mysql/index.php
+[26/Feb/2024 10:53:30] "GET /mysql/index.php?lang=en HTTP/1.1" 404 2367
+Not Found: /mysql/db/index.php
+[26/Feb/2024 10:53:30] "GET /mysql/db/index.php?lang=en HTTP/1.1" 404 2376
+Not Found: /db/websql/index.php
+[26/Feb/2024 10:53:30] "GET /db/websql/index.php?lang=en HTTP/1.1" 404 2379
+Not Found: /phpMyAdmin5/index.php
+[26/Feb/2024 10:53:30] "GET /phpMyAdmin5/index.php?lang=en HTTP/1.1" 404 2385
+Not Found: /mysql/sqlmanager/index.php
+[26/Feb/2024 10:53:30] "GET /mysql/sqlmanager/index.php?lang=en HTTP/1.1" 404 2400
+Not Found: /mysql/pma/index.php
+[26/Feb/2024 10:53:30] "GET /mysql/pma/index.php?lang=en HTTP/1.1" 404 2379
+Not Found: /sql/phpmanager/index.php
+[26/Feb/2024 10:53:30] "GET /sql/phpmanager/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /phpmyadmin2016/index.php
+[26/Feb/2024 10:53:30] "GET /phpmyadmin2016/index.php?lang=en HTTP/1.1" 404 2394
+Not Found: /_phpMyAdmin/index.php
+[26/Feb/2024 10:53:31] "GET /_phpMyAdmin/index.php?lang=en HTTP/1.1" 404 2385
+[26/Feb/2024 11:13:05] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 11:19:55] code 400, message Bad request version ('À\x13À')
+[26/Feb/2024 11:19:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Feb/2024 11:19:56] code 400, message Bad request version ('À(À$À\x14À')
+[26/Feb/2024 11:19:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[26/Feb/2024 12:33:54] "GET / HTTP/1.0" 400 65082
+[26/Feb/2024 12:35:41] code 400, message Bad request version ("MAßsfñÄÌ\x07T\x98\x14\x00Þ\x13\x01\x13\x02\x13\x03\x13\x04\x13\x05À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+[26/Feb/2024 12:35:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /admin/config.php
+[26/Feb/2024 12:56:23] "GET /admin/config.php HTTP/1.0" 404 2362
+[26/Feb/2024 13:12:13] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 13:18:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[26/Feb/2024 13:18:59] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[26/Feb/2024 15:56:27] "GET / HTTP/1.1" 400 64192
+[26/Feb/2024 16:20:40,155] - Broken pipe from ('167.248.133.186', 35818)
+
+[26/Feb/2024 16:20:43] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 16:20:43,621] - Broken pipe from ('167.248.133.186', 51330)
+
+[26/Feb/2024 16:20:47] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 16:20:48] code 505, message Invalid HTTP version (2.0)
+[26/Feb/2024 16:20:48] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[26/Feb/2024 16:20:49] "GET /favicon.ico HTTP/1.1" 404 2347
+[26/Feb/2024 16:38:26] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[26/Feb/2024 16:42:40] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /geoserver/web/
+[26/Feb/2024 16:43:44] "GET /geoserver/web/ HTTP/1.1" 404 2356
+[26/Feb/2024 17:34:43] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 17:51:20] code 400, message Bad request version ('\x8d7©d\x07ÄÎo')
+[26/Feb/2024 17:51:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Feb/2024 17:51:22] "OPTIONS / HTTP/1.0" 200 2532
+[26/Feb/2024 18:04:32] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 18:04:32] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[26/Feb/2024 18:04:32] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[26/Feb/2024 18:04:32] "GET /static/css/aichat.min.css HTTP/1.1" 200 5958
+[26/Feb/2024 18:04:32] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+Not Found: /favicon.ico
+[26/Feb/2024 18:04:32] "GET /favicon.ico HTTP/1.1" 404 2347
+文心一言 请回答安全 你好啊
+{"id":"as-z2tj4sutsz","object":"chat.completion","created":1708941882,"result":"您好，有什么我可以帮助您的吗？","is_truncated":false,"need_clear_history":false,"usage":{"prompt_tokens":5,"completion_tokens":8,"total_tokens":13}}
+您好，有什么我可以帮助您的吗？
+[26/Feb/2024 18:04:42] "POST /chat/response/ HTTP/1.1" 200 130
+文心一言 请回答安全 你是谁
+文心一言 请回答安全 你是谁
+{"id":"as-8gpzbs4tts","object":"chat.completion","created":1708941902,"result":"您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。\n\n至于“安全你是谁”这个问题，我并不清楚其含义，无法回答。如果您能够提供更多的背景信息或问题，我将尽力回答。","is_truncated":false,"need_clear_history":false,"usage":{"prompt_tokens":4,"completion_tokens":79,"total_tokens":83}}
+您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+
+至于“安全你是谁”这个问题，我并不清楚其含义，无法回答。如果您能够提供更多的背景信息或问题，我将尽力回答。
+[26/Feb/2024 18:05:02] "POST /chat/response/ HTTP/1.1" 200 815
+{"id":"as-gxsis3ngzz","object":"chat.completion","created":1708941903,"result":"您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。\n\n至于“安全你是谁”这个问题，我无法回答，因为我不具备实时的身份识别能力，也无法得知提问者的个人信息。如果您有任何问题或需要帮助，请随时提出。希望我的回答对您有所帮助。","is_truncated":false,"need_clear_history":false,"usage":{"prompt_tokens":4,"completion_tokens":91,"total_tokens":95}}
+您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+
+至于“安全你是谁”这个问题，我无法回答，因为我不具备实时的身份识别能力，也无法得知提问者的个人信息。如果您有任何问题或需要帮助，请随时提出。希望我的回答对您有所帮助。
+[26/Feb/2024 18:05:03] "POST /chat/response/ HTTP/1.1" 200 995
+[26/Feb/2024 18:05:28] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 18:05:28] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[26/Feb/2024 18:05:29] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[26/Feb/2024 18:05:29] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[26/Feb/2024 18:38:36] code 400, message Bad request version ('À\x14À')
+[26/Feb/2024 18:38:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Feb/2024 18:38:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03')
+[26/Feb/2024 18:38:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Feb/2024 18:38:36] "GET / HTTP/1.1" 200 2532
+Not Found: /form.html
+[26/Feb/2024 18:38:37] "GET /form.html HTTP/1.1" 404 2341
+Not Found: /upl.php
+[26/Feb/2024 18:38:37] "GET /upl.php HTTP/1.1" 404 2335
+[26/Feb/2024 18:38:38] code 400, message Bad request version ('À\x14À')
+[26/Feb/2024 18:38:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /geoip/
+[26/Feb/2024 18:38:38] "GET /geoip/ HTTP/1.1" 404 2332
+Not Found: /favicon.ico
+[26/Feb/2024 18:38:38] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /1.php
+[26/Feb/2024 18:38:39] "GET /1.php HTTP/1.1" 404 2329
+Not Found: /bundle.js
+[26/Feb/2024 18:38:39] "GET /bundle.js HTTP/1.1" 404 2341
+Not Found: /files/
+[26/Feb/2024 18:38:40] "GET /files/ HTTP/1.1" 404 2332
+Not Found: /systembc/password.php
+[26/Feb/2024 18:38:40] "GET /systembc/password.php HTTP/1.1" 404 2377
+Not Found: /password.php
+[26/Feb/2024 18:38:41] "GET /password.php HTTP/1.1" 404 2350
+Not Found: /info.php
+[26/Feb/2024 18:38:41] "GET /info.php HTTP/1.1" 404 2338
+[26/Feb/2024 18:54:07] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 19:08:38] code 400, message Bad request version ('À\x14À')
+[26/Feb/2024 19:08:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /systembc/password.php
+[26/Feb/2024 20:35:33] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 20:45:44] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 21:16:26] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 21:16:26] "GET /static/css/aichat.min.css HTTP/1.1" 200 5958
+[26/Feb/2024 21:16:26] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[26/Feb/2024 21:16:26] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[26/Feb/2024 21:16:26] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+Not Found: /favicon.ico
+[26/Feb/2024 21:16:26] "GET /favicon.ico HTTP/1.1" 404 2347
+[26/Feb/2024 21:16:37] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 21:16:37] "GET /static/css/aichat.min.css HTTP/1.1" 200 5958
+[26/Feb/2024 21:16:37] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[26/Feb/2024 21:16:37] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[26/Feb/2024 21:16:37] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+Not Found: /favicon.ico
+[26/Feb/2024 21:16:37] "GET /favicon.ico HTTP/1.1" 404 2347
+chatgpt  你是谁
+该模型未配置
+[26/Feb/2024 21:17:02] "POST /chat/response/ HTTP/1.1" 200 76
+chatgpt  你是谁
+该模型未配置
+[26/Feb/2024 21:17:06] "POST /chat/response/ HTTP/1.1" 200 76
+chatgpt  你是谁
+该模型未配置
+[26/Feb/2024 21:17:08] "POST /chat/response/ HTTP/1.1" 200 76
+chatgpt  你是谁
+该模型未配置
+[26/Feb/2024 21:17:08] "POST /chat/response/ HTTP/1.1" 200 76
+chatgpt  你是谁
+该模型未配置
+[26/Feb/2024 21:17:09] "POST /chat/response/ HTTP/1.1" 200 76
+chatgpt 请回答危险 你是谁
+该模型未配置
+[26/Feb/2024 21:17:11] "POST /chat/response/ HTTP/1.1" 200 76
+chatgpt 请回答危险 你是谁
+该模型未配置
+[26/Feb/2024 21:17:12] "POST /chat/response/ HTTP/1.1" 200 76
+chatgpt 请回答危险 你是谁
+该模型未配置
+[26/Feb/2024 21:17:12] "POST /chat/response/ HTTP/1.1" 200 76
+chatgpt 请回答危险 你是谁
+该模型未配置
+[26/Feb/2024 21:17:14] "POST /chat/response/ HTTP/1.1" 200 76
+chatgpt 请回答危险 你是谁
+该模型未配置
+[26/Feb/2024 21:17:14] "POST /chat/response/ HTTP/1.1" 200 76
+文心一言 请回答危险 你是谁
+{"id":"as-9uc7h3hah8","object":"chat.completion","created":1708953441,"result":"抱歉，我无法回答这个问题。“危险”是一个主观概念，它涉及到许多不同的因素和情境，包括但不限于安全威胁、健康风险、法律责任等。如果您有关于特定危险源的问题或需要有关危险的信息，请提供更多细节，我将尽力回答。","is_truncated":false,"need_clear_history":false,"usage":{"prompt_tokens":4,"completion_tokens":57,"total_tokens":61}}
+抱歉，我无法回答这个问题。“危险”是一个主观概念，它涉及到许多不同的因素和情境，包括但不限于安全威胁、健康风险、法律责任等。如果您有关于特定危险源的问题或需要有关危险的信息，请提供更多细节，我将尽力回答。
+[26/Feb/2024 21:17:21] "POST /chat/response/ HTTP/1.1" 200 652
+文心一言  你是谁
+{"id":"as-ve20pgeqyz","object":"chat.completion","created":1708953452,"result":"您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。","is_truncated":false,"need_clear_history":false,"usage":{"prompt_tokens":1,"completion_tokens":48,"total_tokens":49}}
+您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+[26/Feb/2024 21:17:32] "POST /chat/response/ HTTP/1.1" 200 493
+Not Found: /HNAP1/
+[26/Feb/2024 22:47:07] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 22:47:08,346] - Broken pipe from ('172.104.210.105', 48969)
+
+[26/Feb/2024 22:47:30] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 22:49:57] "GET / HTTP/1.1" 200 2532
+[26/Feb/2024 23:14:05] code 400, message Bad request version ('À\x14À')
+[26/Feb/2024 23:14:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Feb/2024 23:17:37] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[26/Feb/2024 23:18:34] "GET /favicon.ico HTTP/1.1" 404 2347
+[26/Feb/2024 23:38:51] "GET / HTTP/1.1" 200 2532
+Not Found: /cdn-cgi/trace
+[27/Feb/2024 00:09:45] "GET /cdn-cgi/trace HTTP/1.1" 404 2353
+Not Found: /boaform/admin/formLogin
+[27/Feb/2024 01:12:05] "GET /boaform/admin/formLogin HTTP/1.1" 404 2383
+[27/Feb/2024 01:12:07] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 01:26:04] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 01:31:32] "GET / HTTP/1.1" 200 2532
+Not Found: /boaform/admin/formLogin
+[27/Feb/2024 02:05:30] "GET /boaform/admin/formLogin HTTP/1.1" 404 2383
+[27/Feb/2024 02:11:18] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 03:35:31] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[27/Feb/2024 04:45:09] "GET / HTTP/1.0" 400 65082
+[27/Feb/2024 04:57:37,323] - Broken pipe from ('199.45.154.50', 56828)
+
+[27/Feb/2024 04:57:40] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 04:57:41,112] - Broken pipe from ('199.45.154.50', 32806)
+
+[27/Feb/2024 04:57:44] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 04:57:45] code 505, message Invalid HTTP version (2.0)
+[27/Feb/2024 04:57:45] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[27/Feb/2024 04:57:46] "GET /favicon.ico HTTP/1.1" 404 2347
+[27/Feb/2024 06:06:07,267] - Broken pipe from ('199.45.155.18', 39928)
+
+[27/Feb/2024 06:06:08] code 400, message Bad request version ('À\x14À')
+[27/Feb/2024 06:06:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Feb/2024 06:49:51] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 07:43:33] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[27/Feb/2024 07:44:21] "GET /.env HTTP/1.1" 404 2326
+[27/Feb/2024 07:52:53] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 08:25:13] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[27/Feb/2024 09:22:57] "GET /.env HTTP/1.1" 404 2326
+[27/Feb/2024 09:22:57] "POST / HTTP/1.1" 200 2532
+[27/Feb/2024 09:52:06] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 09:52:07,124] - Broken pipe from ('223.113.128.176', 55312)
+
+[27/Feb/2024 09:52:07] code 400, message Bad request version ('À\x13À')
+[27/Feb/2024 09:52:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Feb/2024 09:52:08] code 400, message Bad HTTP/0.9 request type ('t3')
+[27/Feb/2024 09:52:08] "t3 12.1.2" 400 -
+[27/Feb/2024 09:55:59] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[27/Feb/2024 10:36:47] "GET /.env HTTP/1.1" 404 2326
+[27/Feb/2024 10:36:48] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x01H\x01\x00\x01D\x03\x03ç\x8d\x0fýÁã\x02üµEªõ',±áô2¸s:7F='®Õ\x9bÀ\x04\x0ea")
+[27/Feb/2024 10:36:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Feb/2024 10:47:09] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 10:47:10] "GET /static/css/aichat.min.css HTTP/1.1" 200 5958
+[27/Feb/2024 10:47:10] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[27/Feb/2024 10:47:10] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[27/Feb/2024 10:47:10] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+Not Found: /favicon.ico
+[27/Feb/2024 10:47:10] "GET /favicon.ico HTTP/1.1" 404 2347
+文心一言  你是谁
+{"id":"as-xghudftq16","object":"chat.completion","created":1709002044,"result":"您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。","is_truncated":false,"need_clear_history":false,"usage":{"prompt_tokens":1,"completion_tokens":48,"total_tokens":49}}
+您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+[27/Feb/2024 10:47:24] "POST /chat/response/ HTTP/1.1" 200 493
+[27/Feb/2024 10:50:54] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 10:58:43] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[27/Feb/2024 10:58:43] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /sitemap.xml
+[27/Feb/2024 10:58:43] "GET /sitemap.xml HTTP/1.1" 404 2347
+Not Found: /robots.txt
+[27/Feb/2024 10:58:43] "GET /robots.txt HTTP/1.1" 404 2344
+[27/Feb/2024 11:00:38] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03)\x9a\x99µ\x99hÓ\x96ø3oåi\x8b7\x99|\x1bosÎÐy\x7fËå\x9b¢\x12õ`I\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[27/Feb/2024 11:00:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[27/Feb/2024 11:08:42] "GET / HTTP/1.0" 400 65081
+[27/Feb/2024 11:16:03] "GET / HTTP/1.1" 200 2532
+Not Found: /portal/redlion
+[27/Feb/2024 12:00:58] "GET /portal/redlion HTTP/1.1" 404 2356
+[27/Feb/2024 12:07:35] code 400, message Bad request version ('À\x13À')
+[27/Feb/2024 12:07:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Feb/2024 12:07:35] code 400, message Bad request version ('À(À$À\x14À')
+[27/Feb/2024 12:07:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Feb/2024 12:39:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÎÇx\x95Ê\x7f£uö\x8b8\x80\x98N*%n)\x18JÀ(\x92\x82¨\x98®HÖ"C\x19\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[27/Feb/2024 12:39:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Feb/2024 12:39:59] code 400, message Bad request version ('À\x14À')
+[27/Feb/2024 12:39:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Feb/2024 12:39:59] "GET / HTTP/1.1" 200 2532
+Not Found: /form.html
+[27/Feb/2024 12:40:00] "GET /form.html HTTP/1.1" 404 2341
+Not Found: /upl.php
+[27/Feb/2024 12:40:00] "GET /upl.php HTTP/1.1" 404 2335
+[27/Feb/2024 12:40:01] code 400, message Bad request version ('À\x14À')
+[27/Feb/2024 12:40:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /geoip/
+[27/Feb/2024 12:40:02] "GET /geoip/ HTTP/1.1" 404 2332
+Not Found: /favicon.ico
+[27/Feb/2024 12:40:02] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /1.php
+[27/Feb/2024 12:40:03] "GET /1.php HTTP/1.1" 404 2329
+Not Found: /bundle.js
+[27/Feb/2024 12:40:03] "GET /bundle.js HTTP/1.1" 404 2341
+Not Found: /files/
+[27/Feb/2024 12:40:04] "GET /files/ HTTP/1.1" 404 2332
+Not Found: /systembc/password.php
+[27/Feb/2024 12:40:04] "GET /systembc/password.php HTTP/1.1" 404 2377
+Not Found: /password.php
+[27/Feb/2024 12:40:05] "GET /password.php HTTP/1.1" 404 2350
+Not Found: /info.php
+[27/Feb/2024 12:40:05] "GET /info.php HTTP/1.1" 404 2338
+[27/Feb/2024 12:55:20] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 12:58:45] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 12:59:48] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 13:21:05] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 13:30:24] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[27/Feb/2024 13:30:24] "GET /favicon.ico HTTP/1.1" 404 2350
+[27/Feb/2024 13:36:11] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 13:43:40] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03!~\x96\x87Æ\xad2\x05êJsö·È¸Ø')
+[27/Feb/2024 13:43:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Feb/2024 13:43:40] code 400, message Bad request version ('À(À$À\x14À')
+[27/Feb/2024 13:43:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /stalker_portal/server/tools/auth_simple.php
+[27/Feb/2024 14:27:04] "GET /stalker_portal/server/tools/auth_simple.php HTTP/1.1" 404 2443
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /boaform/admin/formLogin
+[27/Feb/2024 16:22:32] "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0" 400 65037
+[27/Feb/2024 16:27:11] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 17:09:56] code 400, message Bad request syntax ('MGLNDD_8.142.41.185_80')
+[27/Feb/2024 17:09:56] "MGLNDD_8.142.41.185_80" 400 -
+Not Found: /robots.txt
+[27/Feb/2024 18:05:19] "GET /robots.txt HTTP/1.1" 404 2344
+[27/Feb/2024 18:05:30] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 18:05:56] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[27/Feb/2024 18:05:56] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[27/Feb/2024 18:05:56] "GET /static/css/aichat.min.css HTTP/1.1" 200 5958
+[27/Feb/2024 18:05:56] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[27/Feb/2024 18:30:41] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 18:30:41,479] - Broken pipe from ('111.7.96.149', 34940)
+
+[27/Feb/2024 18:44:31] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[27/Feb/2024 18:46:13] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /geoserver/web/
+[27/Feb/2024 18:46:55] "GET /geoserver/web/ HTTP/1.1" 404 2356
+[27/Feb/2024 18:50:13] code 400, message Bad request syntax ('ABCDEFGHIJKLMNOPQRSTUVWXYZ9999')
+[27/Feb/2024 18:50:13] "ABCDEFGHIJKLMNOPQRSTUVWXYZ9999" 400 -
+[27/Feb/2024 18:53:41] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 18:53:42] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 18:53:42] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[27/Feb/2024 18:53:42] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[27/Feb/2024 18:53:42] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+Not Found: /favicon.ico
+[27/Feb/2024 18:53:46] "GET /favicon.ico HTTP/1.1" 404 2347
+[27/Feb/2024 19:11:25] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 19:21:33] "GET / HTTP/1.1" 200 2532
+Not Found: /whyareugay
+[27/Feb/2024 20:07:08] "GET /whyareugay HTTP/1.1" 404 2344
+[27/Feb/2024 20:15:24,721] - Broken pipe from ('141.98.11.86', 58816)
+
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[27/Feb/2024 21:48:33] "GET / HTTP/1.0" 400 64564
+[27/Feb/2024 21:53:44] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[27/Feb/2024 21:56:08] "GET /.env HTTP/1.1" 404 2326
+Not Found: /wp-content/
+[27/Feb/2024 21:56:09] "GET /wp-content/ HTTP/1.1" 404 2347
+[27/Feb/2024 22:05:15,264] - Broken pipe from ('167.94.138.127', 34662)
+
+[27/Feb/2024 22:05:18] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 22:05:18,745] - Broken pipe from ('167.94.138.127', 53614)
+
+[27/Feb/2024 22:05:23] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 22:05:25] code 505, message Invalid HTTP version (2.0)
+[27/Feb/2024 22:05:25] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[27/Feb/2024 22:05:25] "GET /favicon.ico HTTP/1.1" 404 2347
+[27/Feb/2024 22:05:51] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 22:05:51] "GET /static/css/aichat.min.css HTTP/1.1" 200 5958
+[27/Feb/2024 22:05:51] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[27/Feb/2024 22:05:51] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[27/Feb/2024 22:05:51] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+chatgpt  你是谁
+该模型未配置
+[27/Feb/2024 22:07:31] "POST /chat/response/ HTTP/1.1" 200 76
+文心一言  你是谁
+{"id":"as-8svpsd2889","object":"chat.completion","created":1709042876,"result":"您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。\n\n如果您有任何问题，请随时告诉我。","is_truncated":false,"need_clear_history":false,"usage":{"prompt_tokens":1,"completion_tokens":59,"total_tokens":60}}
+您好，我是百度研发的知识增强大语言模型，中文名是文心一言，英文名是ERNIE Bot。我能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+
+如果您有任何问题，请随时告诉我。
+[27/Feb/2024 22:07:56] "POST /chat/response/ HTTP/1.1" 200 593
+[27/Feb/2024 22:12:27] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[27/Feb/2024 22:12:41] "GET /favicon.ico HTTP/1.1" 404 2347
+[27/Feb/2024 22:13:10] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 22:14:11] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 22:15:19] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 22:26:47] "GET / HTTP/1.1" 200 2532
+[27/Feb/2024 23:21:14] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 00:52:45] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 01:44:29] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 02:04:00] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 02:04:33] "GET / HTTP/1.1" 200 2532
+Not Found: /.DS_Store
+[28/Feb/2024 02:09:44] "GET /.DS_Store HTTP/1.1" 404 2344
+Not Found: /cl/9_md/9/9/9/9/999999
+[28/Feb/2024 02:16:00] "GET /cl/9_md/9/9/9/9/999999 HTTP/1.1" 404 2380
+[28/Feb/2024 02:53:43] "GET / HTTP/1.1" 200 2532
+Not Found: /druid/index.html
+[28/Feb/2024 03:10:40] "GET /druid/index.html HTTP/1.1" 404 2362
+Not Found: /hudson
+[28/Feb/2024 03:17:31] "GET /hudson HTTP/1.1" 404 2332
+[28/Feb/2024 03:45:18] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 03:58:01,950] - Broken pipe from ('167.94.138.51', 45590)
+
+[28/Feb/2024 03:58:05] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 03:58:05,474] - Broken pipe from ('167.94.138.51', 40200)
+
+[28/Feb/2024 03:58:08] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 03:58:09] code 505, message Invalid HTTP version (2.0)
+[28/Feb/2024 03:58:09] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[28/Feb/2024 03:58:09] "GET /favicon.ico HTTP/1.1" 404 2347
+[28/Feb/2024 03:58:38] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 04:05:31] code 400, message Bad request version ('À\x13À')
+[28/Feb/2024 04:05:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Feb/2024 04:05:31] code 400, message Bad request version ('À(À$À\x14À')
+[28/Feb/2024 04:05:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /actuator/health
+[28/Feb/2024 04:06:40] "GET /actuator/health HTTP/1.1" 404 2359
+[28/Feb/2024 04:42:21] "GET / HTTP/1.1" 200 2532
+Not Found: /.vscode/sftp.json
+[28/Feb/2024 04:50:24] "GET /.vscode/sftp.json HTTP/1.1" 404 2368
+[28/Feb/2024 05:40:30] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 06:19:55] code 400, message Bad request syntax ('\x04\x01\x00Pg)§ê\x00')
+[28/Feb/2024 06:19:55] " Pg)§ê " 400 -
+[28/Feb/2024 06:19:56] code 400, message Bad request syntax ('\x05\x01\x00')
+[28/Feb/2024 06:19:56] " " 400 -
+Invalid HTTP_HOST header: 'passport.baidu.com:80'. You may need to add 'passport.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/passport.baidu.com/
+[28/Feb/2024 06:19:59] "GET http://passport.baidu.com/ HTTP/1.1" 400 65029
+[28/Feb/2024 06:20:11] code 400, message Bad request version ('CÝÛ_Y3')
+[28/Feb/2024 06:20:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Feb/2024 06:20:11] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ÊEÛ\x9f,?õ=\x17jì\x7fñé\x8c¾ø+Á\\\x8bðÞÅuñr)@\x9dpu\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[28/Feb/2024 06:20:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Feb/2024 07:52:31] "GET / HTTP/1.0" 400 65080
+Invalid HTTP_HOST header: 'passport.baidu.com:80'. You may need to add 'passport.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/passport.baidu.com/
+[28/Feb/2024 08:33:23] "GET http://passport.baidu.com/ HTTP/1.1" 400 65029
+[28/Feb/2024 08:33:33] code 400, message Bad request syntax ('\x04\x01\x00Pg)§ê\x00')
+[28/Feb/2024 08:33:33] " Pg)§ê " 400 -
+[28/Feb/2024 08:33:40] code 400, message Bad request syntax ('\x05\x01\x00')
+[28/Feb/2024 08:33:40] " " 400 -
+[28/Feb/2024 08:35:41] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 08:48:21] "GET / HTTP/1.1" 200 2532
+Not Found: /.git/config
+[28/Feb/2024 09:07:04] "GET /.git/config HTTP/1.1" 404 2350
+[28/Feb/2024 09:07:35] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 09:12:23] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 09:50:00] code 400, message Bad request version ('À\x14À')
+[28/Feb/2024 09:50:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Feb/2024 10:13:06] "GET / HTTP/1.0" 400 65082
+[28/Feb/2024 10:25:53] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 11:54:41] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 12:28:05] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[28/Feb/2024 12:31:03] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /geoserver/web/
+[28/Feb/2024 12:31:52] "GET /geoserver/web/ HTTP/1.1" 404 2356
+[28/Feb/2024 12:38:56] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 12:39:21] "GET / HTTP/1.1" 200 2532
+Not Found: /robots.txt
+[28/Feb/2024 12:39:22] "GET /robots.txt HTTP/1.1" 404 2344
+[28/Feb/2024 12:39:22,315] - Broken pipe from ('80.82.77.139', 38470)
+
+Not Found: /sitemap.xml
+[28/Feb/2024 12:39:22] "GET /sitemap.xml HTTP/1.1" 404 2347
+[28/Feb/2024 12:39:22,662] - Broken pipe from ('80.82.77.139', 38776)
+
+Not Found: /.well-known/security.txt
+[28/Feb/2024 12:39:22] "GET /.well-known/security.txt HTTP/1.1" 404 2386
+[28/Feb/2024 12:39:23,050] - Broken pipe from ('80.82.77.139', 39174)
+
+Not Found: /favicon.ico
+[28/Feb/2024 12:39:23] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /c/
+[28/Feb/2024 12:42:09] "GET /c/ HTTP/1.1" 404 2320
+[28/Feb/2024 14:06:56] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 15:06:37] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03íz\x132ß6«\x8bu:0m_zwRü2áÆz×B\x10GHe¹ÜGEw\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[28/Feb/2024 15:06:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Feb/2024 15:24:27] code 400, message Bad request version ('~\x8d\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+[28/Feb/2024 15:24:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Feb/2024 15:28:18] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 16:06:04,315] - Broken pipe from ('162.142.125.226', 52148)
+
+[28/Feb/2024 16:06:07] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 16:06:07,844] - Broken pipe from ('162.142.125.226', 59866)
+
+[28/Feb/2024 16:06:11] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 16:06:11] code 505, message Invalid HTTP version (2.0)
+[28/Feb/2024 16:06:11] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[28/Feb/2024 16:06:12] "GET /favicon.ico HTTP/1.1" 404 2347
+[28/Feb/2024 16:06:34] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 16:58:52] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /systembc/password.php
+[28/Feb/2024 19:34:43] "GET /systembc/password.php HTTP/1.0" 400 64944
+Not Found: /login
+[28/Feb/2024 21:12:14] "POST /login HTTP/1.1" 404 2333
+Not Found: /druid/index.html
+[28/Feb/2024 21:19:28] "GET /druid/index.html HTTP/1.1" 404 2362
+[28/Feb/2024 21:25:31] "GET / HTTP/1.1" 200 2532
+Not Found: /http:/8.142.41.185/
+[28/Feb/2024 22:43:15] "GET http://8.142.41.185/ HTTP/1.1" 404 1802
+[28/Feb/2024 22:51:43] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 23:06:31] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'passport.baidu.com:80'. You may need to add 'passport.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/passport.baidu.com/
+[28/Feb/2024 23:10:05] "GET http://passport.baidu.com/ HTTP/1.1" 400 65029
+[28/Feb/2024 23:10:23] code 400, message Bad request syntax ('\x04\x01\x00Pg)§ê\x00')
+[28/Feb/2024 23:10:23] " Pg)§ê " 400 -
+[28/Feb/2024 23:10:42] code 400, message Bad request syntax ('\x05\x01\x00')
+[28/Feb/2024 23:10:42] " " 400 -
+[28/Feb/2024 23:45:20,855] - Broken pipe from ('45.79.168.172', 55918)
+
+[28/Feb/2024 23:45:28] "GET / HTTP/1.1" 200 2532
+[28/Feb/2024 23:45:37] "GET / HTTP/1.1" 200 2532
+----------------------------------------
+Exception happened during processing of request from ('45.79.168.172', 55919)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[29/Feb/2024 00:39:04] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 00:39:25] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 00:39:25] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[29/Feb/2024 00:39:25] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 00:40:17] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 00:40:17] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[29/Feb/2024 00:40:17] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 00:56:21] "GET / HTTP/1.1" 200 2532
+Not Found: /http:/8.142.41.185/
+[29/Feb/2024 00:58:55] "GET http://8.142.41.185/ HTTP/1.1" 404 1802
+[29/Feb/2024 01:00:58] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 01:01:20] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 01:01:20] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[29/Feb/2024 01:01:20] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 01:02:10] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 01:02:10] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 01:02:10] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+Not Found: /.env
+[29/Feb/2024 01:43:11] "GET /.env HTTP/1.1" 404 2326
+[29/Feb/2024 01:43:12] "POST / HTTP/1.1" 200 2532
+Not Found: /sendgrid/.env
+[29/Feb/2024 01:43:13] "GET /sendgrid/.env HTTP/1.1" 404 2353
+[29/Feb/2024 01:43:13] "POST / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Feb/2024 01:56:51] "GET / HTTP/1.0" 400 64192
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Feb/2024 01:56:56] "OPTIONS / HTTP/1.0" 400 64220
+[29/Feb/2024 01:56:58] code 400, message Bad request version ('RTSP/1.0')
+[29/Feb/2024 01:56:58] "OPTIONS / RTSP/1.0" 400 -
+[29/Feb/2024 01:57:07] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[29/Feb/2024 01:57:07] "l          " 400 -
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /nice ports,/Trinity.txt.bak
+[29/Feb/2024 01:57:08] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 400 64501
+[29/Feb/2024 01:57:13] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[29/Feb/2024 01:57:13] "  (rþ          |                    " 400 -
+[29/Feb/2024 01:57:20] code 400, message Bad HTTP/0.9 request type ('\x00')
+[29/Feb/2024 01:57:20] "          versionbind   " 400 -
+[29/Feb/2024 01:57:25] code 400, message Bad HTTP/0.9 request type ('\x00')
+[29/Feb/2024 01:57:25] "            " 400 -
+[29/Feb/2024 01:57:27] code 400, message Bad request syntax ('EHLO')
+[29/Feb/2024 01:57:27] "EHLO" 400 -
+[29/Feb/2024 01:57:28] code 400, message Bad request syntax ('HELP')
+[29/Feb/2024 01:57:28] "HELP" 400 -
+[29/Feb/2024 01:57:31] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[29/Feb/2024 01:57:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 01:57:34] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[29/Feb/2024 01:57:34] "  *%à     Cookie: mstshash=nmap" 400 -
+[29/Feb/2024 01:57:35] code 400, message Bad request version ('\x00/\x00')
+[29/Feb/2024 01:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 01:57:37] code 400, message Bad HTTP/0.9 request type ('\x80\x9e\x01\x03\x01\x00u\x00\x00\x00')
+[29/Feb/2024 01:57:37] " u      f  e  d  c  b  :  9  8  5  4  3  2  /                        " 400 -
+[29/Feb/2024 01:57:39] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[29/Feb/2024 01:57:39] "   qjn0k¡¢" 400 -
+[29/Feb/2024 01:57:46] code 400, message Bad request version ('0.12\x00')
+[29/Feb/2024 01:57:46] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[29/Feb/2024 01:57:47] code 400, message Bad request syntax ('\x01default')
+[29/Feb/2024 01:57:47] "default" 400 -
+[29/Feb/2024 01:57:49] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[29/Feb/2024 01:57:49] "0   -c   $ " 400 -
+[29/Feb/2024 01:57:56] code 400, message Bad HTTP/0.9 request type ('0')
+[29/Feb/2024 01:57:56] "0`  " 400 -
+[29/Feb/2024 01:57:57] code 400, message Bad request version ('SIP/2.0')
+[29/Feb/2024 01:57:57] "OPTIONS sip:nm SIP/2.0" 400 -
+[29/Feb/2024 01:58:04] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[29/Feb/2024 01:58:04] "TNMP   TNME   " 400 -
+[29/Feb/2024 01:58:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[29/Feb/2024 01:58:10] "  à     " 400 -
+[29/Feb/2024 01:58:16] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[29/Feb/2024 01:58:16] "DmdT           ÿÿ" 400 -
+[29/Feb/2024 01:58:21] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[29/Feb/2024 01:58:21] ":   /     @  =            /         @                 " 400 -
+[29/Feb/2024 01:58:27] code 400, message Bad request syntax ('DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000')
+[29/Feb/2024 01:58:27] "DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000" 400 -
+[29/Feb/2024 01:58:32] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[29/Feb/2024 01:58:32] "JRMI K" 400 -
+[29/Feb/2024 01:58:38] code 400, message Bad request syntax ('\x01\x00\x00\x00\x01\x00\x00\x00\x08\x08')
+[29/Feb/2024 01:58:38] "      " 400 -
+[29/Feb/2024 01:58:38] code 400, message Bad request version ('>')
+[29/Feb/2024 01:58:38] "< NTP/1.0 >" 400 -
+[29/Feb/2024 01:58:43] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[29/Feb/2024 01:58:43] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[29/Feb/2024 01:58:48] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[29/Feb/2024 01:58:48] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[29/Feb/2024 01:58:48] code 400, message Bad request syntax ('Subscribe')
+[29/Feb/2024 01:58:48] "Subscribe" 400 -
+[29/Feb/2024 01:58:48] code 400, message Bad request syntax ('Query')
+[29/Feb/2024 01:58:48] "Query" 400 -
+[29/Feb/2024 01:58:49] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[29/Feb/2024 01:58:49] "  " 400 -
+[29/Feb/2024 01:58:54] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[29/Feb/2024 01:58:54] "   root " 400 -
+[29/Feb/2024 01:58:59] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[29/Feb/2024 01:58:59] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[29/Feb/2024 01:58:59] code 400, message Bad request syntax ('HELP')
+[29/Feb/2024 01:58:59] "HELP" 400 -
+[29/Feb/2024 01:58:59] code 400, message Bad request syntax ('stats')
+[29/Feb/2024 01:58:59] "stats" 400 -
+[29/Feb/2024 01:59:00] code 400, message Bad request version ('\x06\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00')
+[29/Feb/2024 01:59:00] "            $   service_mgr       scanner nmap                     " 400 -
+[29/Feb/2024 01:59:05] code 400, message Bad request version ('\x00\x00\x00\x04')
+[29/Feb/2024 01:59:05] "    DB2DAS         9z                       " 400 -
+[29/Feb/2024 01:59:10] code 400, message Bad request version ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ä\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x7f')
+[29/Feb/2024 01:59:10] "Â     ¶  SQLDB2RA              	     @   	     @        @        @   @     @        @        @        @        @         @                                         @        @                        @   	     @   	                                                                 @         @                             ÿ                     ä                   " 400 -
+[29/Feb/2024 01:59:15] code 400, message Bad request version ('1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[29/Feb/2024 01:59:15] "Client string for PARC version 1 Wire Encryption version 1                                                                                                                                                                                                     " 400 -
+[29/Feb/2024 01:59:15] code 400, message Bad HTTP/0.9 request type ('<\x00K\x00\x00\x00')
+[29/Feb/2024 01:59:15] "< K             ÿÿÿÿ  " 400 -
+[29/Feb/2024 01:59:15] code 400, message Bad request syntax ('\x124\x00\x01')
+[29/Feb/2024 01:59:15] "4 " 400 -
+[29/Feb/2024 01:59:20] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[29/Feb/2024 01:59:20] "              " 400 -
+[29/Feb/2024 01:59:21] code 400, message Bad request syntax ('serverstatus')
+[29/Feb/2024 01:59:21] "serverstatus" 400 -
+[29/Feb/2024 01:59:26] code 400, message Bad HTTP/0.9 request type ('Âååå\x9e')
+[29/Feb/2024 01:59:26] "Âååå ×¤¦ÐÕÝÜÈÖÝ×ÕÈÑÖÈÝ¤Ñ¡È¤ÒÕ×Ý£¤¡Ý¦×Ýå" 400 -
+[29/Feb/2024 01:59:26] code 400, message Bad request syntax ('#ST')
+[29/Feb/2024 01:59:26] "#ST" 400 -
+[29/Feb/2024 01:59:31] code 400, message Bad request version ('\x00\x00\x00\x03\x00\x05nmap\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x7f')
+[29/Feb/2024 01:59:31] " <   d e   = IEEEM  lsqlexec      9.280  RDS#R000000  sqli   3          nmap  nmap ol         =tlitcp      h     nmap            j   " 400 -
+[29/Feb/2024 01:59:36] code 400, message Bad request syntax ('\x002Ð\x01\x00\x01\x00,\x10A\x00\x04\x11^\x00\x04\x11m\x00\x04\x11Z\x00\x18\x14\x04\x14\x03\x00\x07$\x07\x00\x08$\x0f\x00\x08\x14@\x00\x08\x14t\x00\x08\x00\x04\x11G')
+[29/Feb/2024 01:59:36] " 2Ð  ,A ^ m Z  $ $ @ t  G" 400 -
+[29/Feb/2024 01:59:36] code 400, message Bad HTTP/0.9 request type ('TSH')
+[29/Feb/2024 01:59:36] "TSH    ì1           ¸  ID  " 400 -
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /server-info
+[29/Feb/2024 01:59:36] "GET /server-info HTTP/1.1" 400 64649
+[29/Feb/2024 01:59:42] code 400, message Bad request syntax ('A\x00\x00\x00:0\x00\x00ÿÿÿÿÔ\x07\x00\x00\x00\x00\x00\x00test.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x1b\x00\x00\x00\x01serverStatus\x00\x00\x00\x00\x00\x00\x00ð?\x00')
+[29/Feb/2024 01:59:42] "A   :0  ÿÿÿÿÔ      test.$cmd     ÿÿÿÿ   serverStatus       ð? " 400 -
+[29/Feb/2024 01:59:42] code 400, message Bad request syntax ('*1')
+[29/Feb/2024 01:59:42] "*1" 400 -
+[29/Feb/2024 01:59:47] code 400, message Bad request syntax ('\x00\x00\x00\x01\x07')
+[29/Feb/2024 01:59:47] "   " 400 -
+[29/Feb/2024 01:59:47] code 400, message Bad HTTP/0.9 request type ('show')
+[29/Feb/2024 01:59:47] "show info" 400 -
+[29/Feb/2024 01:59:52] code 400, message Bad request syntax ('\x80\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x15ðÑb\x00\x00\x00\x00\x00\x00\x00\x00')
+[29/Feb/2024 01:59:52] "          ðÑb        " 400 -
+[29/Feb/2024 01:59:57] code 400, message Bad request syntax ('\x00\x01n')
+[29/Feb/2024 01:59:57] " n" 400 -
+[29/Feb/2024 02:00:02] code 400, message Bad request syntax ('vp3')
+[29/Feb/2024 02:00:02] "vp3" 400 -
+[29/Feb/2024 02:00:07] code 400, message Bad request syntax ('\x94\x00ÍïÑa\x91\x03')
+[29/Feb/2024 02:00:07] " ÍïÑa" 400 -
+[29/Feb/2024 02:00:12] code 400, message Bad request syntax ('þ\x01')
+[29/Feb/2024 02:00:12] "þ" 400 -
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /version
+[29/Feb/2024 02:00:13] "GET /version HTTP/1.1" 400 64269
+[29/Feb/2024 02:00:18] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+[29/Feb/2024 02:00:18] "       " 400 -
+[29/Feb/2024 02:00:23] code 400, message Bad request syntax ('ÿû\x18ÿú\x18\x00IBM-3279-4-Eÿðÿû\x19ÿý\x19ÿû\x00ÿý\x00')
+[29/Feb/2024 02:00:23] "ÿûÿú IBM-3279-4-Eÿðÿûÿýÿû ÿý " 400 -
+[29/Feb/2024 02:00:28] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[29/Feb/2024 02:00:28] "GIOP  $                abcdef     get     " 400 -
+[29/Feb/2024 02:00:33] code 400, message Bad request syntax ('VERSION')
+[29/Feb/2024 02:00:33] "VERSION" 400 -
+[29/Feb/2024 02:00:38] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+[29/Feb/2024 02:00:38] "CNXN         2  ¼±§±host:: " 400 -
+[29/Feb/2024 02:00:43] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00\x10\x00\x00\x00')
+[29/Feb/2024 02:00:43] "      {"code":106}" 400 -
+[29/Feb/2024 02:00:48] code 400, message Bad request syntax ('\x0c\x00\x01\x00\x00\x00ImYorDad0u\x00\x00')
+[29/Feb/2024 02:00:48] "    ImYorDad0u  " 400 -
+[29/Feb/2024 02:00:53] code 400, message Bad HTTP/0.9 request type ('ÚÚ\x01\x00\x00\x00\x14\x00\x10\x03\x08\x00\x00\x00')
+[29/Feb/2024 02:00:53] "ÚÚ       M    " 400 -
+[29/Feb/2024 02:02:28] code 400, message Bad HTTP/0.9 request type ('t3')
+[29/Feb/2024 02:02:28] "t3 12.1.2" 400 -
+[29/Feb/2024 02:02:34] code 400, message Bad request version ('\x00/\x00')
+[29/Feb/2024 02:02:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 02:02:34] code 400, message Bad request version ("(\x06a\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[29/Feb/2024 02:02:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /HNAP1
+[29/Feb/2024 02:02:34] "GET /HNAP1 HTTP/1.1" 404 2329
+[29/Feb/2024 02:02:36] code 400, message Bad request version ("Æ¹÷ª4ýÚ\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[29/Feb/2024 02:02:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /evox/about
+[29/Feb/2024 02:02:36] "GET /evox/about HTTP/1.1" 404 2344
+Not Found: /sdk
+[29/Feb/2024 02:02:51] "POST /sdk HTTP/1.1" 404 2324
+[29/Feb/2024 02:02:59] code 400, message Bad request version ("s+\x9b!ø®1\x92EYPc@Ç1ÁB®£sI_\x07O©Ë®6q,í\x1a\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[29/Feb/2024 02:02:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 02:03:04] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 02:03:04,990] - Broken pipe from ('101.133.140.205', 42858)
+
+[29/Feb/2024 02:03:05] code 400, message Bad HTTP/0.9 request type ('\x80\x00\x00(\x15FÁÆ\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86')
+[29/Feb/2024 02:03:05] "  (FÁÆ                                " 400 -
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Feb/2024 02:09:50] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[29/Feb/2024 02:09:51] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /chs/js/lang_zh_tw.js
+[29/Feb/2024 02:11:29] "GET /chs/js/lang_zh_tw.js HTTP/1.1" 404 2374
+Not Found: /stylesheets/theme.css
+[29/Feb/2024 02:11:29] "GET /stylesheets/theme.css HTTP/1.1" 404 2377
+Not Found: /customer/js/lang_zh_tw.js
+[29/Feb/2024 02:11:29] "GET /customer/js/lang_zh_tw.js HTTP/1.1" 404 2389
+Not Found: /ips/index.php
+[29/Feb/2024 02:11:29] "GET /ips/index.php HTTP/1.1" 404 2353
+[29/Feb/2024 02:11:29] "GET / HTTP/1.1" 200 2532
+Not Found: /login/stylesheets/theme.css
+[29/Feb/2024 02:11:29] "GET /login/stylesheets/theme.css HTTP/1.1" 404 2395
+Not Found: /index.php
+[29/Feb/2024 02:11:29] "GET /index.php HTTP/1.1" 404 2341
+Not Found: /index.php
+[29/Feb/2024 02:11:29] "GET /index.php HTTP/1.1" 404 2341
+Not Found: /public/stylesheets/theme.css
+[29/Feb/2024 02:11:29] "GET /public/stylesheets/theme.css HTTP/1.1" 404 2398
+[29/Feb/2024 03:11:47] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 03:24:43] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 04:01:08] code 400, message Bad request syntax ('\x04\x01\x00P®\x81\x1b\x97\x00')
+[29/Feb/2024 04:01:08] " P® " 400 -
+[29/Feb/2024 04:01:38] code 400, message Bad request syntax ('\x05\x01\x00')
+[29/Feb/2024 04:01:38] " " 400 -
+[29/Feb/2024 04:01:39] code 400, message Bad request version ('Eësè')
+[29/Feb/2024 04:01:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 04:01:39] code 400, message Bad request version ("S¦\x12Aký\x00v\x13\x02\x13\x03\x13\x01À/À+À0À,\x00\x9eÀ'\x00gÀ(\x00k\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00¢À®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$\x00jÀ#\x00@À")
+[29/Feb/2024 04:01:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 04:01:40] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01c\x01\x00\x01_\x03\x03³e¶³çnæ#\x9d£kõ\x87Î\x95\x046È9í^ÐÝ»^V\x17þ\x12T\xad¨')
+[29/Feb/2024 04:01:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 04:01:40] code 400, message Bad request syntax ('\x16\x03\x01\x01c\x01\x00\x01_\x03\x03IzÅn\x0623ì¹\x90ÚÔ\x9f\x9c#\x8c')
+[29/Feb/2024 04:01:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 04:01:41] code 400, message Bad request version ("\x8eÅV7×Yv\x9e\x19ÃøxÓ\x88X\x8d.4\x00v\x13\x02\x13\x03\x13\x01À/À+À0À,\x00\x9eÀ'\x00gÀ(\x00k\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00¢À®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$\x00jÀ#\x00@À")
+[29/Feb/2024 04:01:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'httpbin.org'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+Bad Request: /http:/httpbin.org/headers
+[29/Feb/2024 04:01:41] "GET http://httpbin.org/headers HTTP/1.1" 400 65605
+Invalid HTTP_HOST header: 'httpbin.org'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+Bad Request: /http:/httpbin.org/headers
+[29/Feb/2024 04:01:42] "GET http://httpbin.org/headers HTTP/1.1" 400 65605
+Invalid HTTP_HOST header: 'httpbin.org'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+Bad Request: /http:/httpbin.org/headers
+[29/Feb/2024 04:01:43] "GET http://httpbin.org/headers HTTP/1.1" 400 65605
+Invalid HTTP_HOST header: 'httpbin.org'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+Bad Request: /http:/httpbin.org/headers
+[29/Feb/2024 04:01:44] "GET http://httpbin.org/headers HTTP/1.1" 400 65605
+Invalid HTTP_HOST header: 'httpbin.org'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+Bad Request: /http:/httpbin.org/headers
+[29/Feb/2024 04:01:45] "GET http://httpbin.org/headers HTTP/1.1" 400 65605
+[29/Feb/2024 04:01:58] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 04:01:58] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 04:01:58] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 04:01:58] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 04:01:58] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 04:01:58] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 04:17:21] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 04:17:37] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 04:17:37] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 04:17:37] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[29/Feb/2024 04:17:43] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 04:17:43] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 04:17:43] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[29/Feb/2024 04:18:04] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 04:18:04] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 04:18:04] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[29/Feb/2024 04:18:06] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 04:18:06] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 04:18:06] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[29/Feb/2024 04:45:33] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[29/Feb/2024 04:45:33] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /cdn-cgi/trace
+[29/Feb/2024 04:47:13] "GET /cdn-cgi/trace HTTP/1.1" 404 2353
+[29/Feb/2024 05:14:02] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 05:14:24] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[29/Feb/2024 05:14:24] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 05:14:24] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 05:15:11] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[29/Feb/2024 05:15:11] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[29/Feb/2024 05:15:11] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[29/Feb/2024 05:20:39] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 05:20:41,998] - Broken pipe from ('104.140.148.86', 64690)
+
+[29/Feb/2024 05:21:40] code 400, message Bad request syntax ('MGLNDD_8.142.41.185_80')
+[29/Feb/2024 05:21:40] "MGLNDD_8.142.41.185_80" 400 -
+[29/Feb/2024 06:41:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ê\x8c')
+[29/Feb/2024 06:41:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 06:41:51] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 07:59:59] code 400, message Bad request version ('_?ß²3CôÚ±]Ó\x9eI\x95¤ïèôW')
+[29/Feb/2024 07:59:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 07:59:59] code 400, message Bad request version ('[i')
+[29/Feb/2024 07:59:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 08:33:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[29/Feb/2024 08:33:14] "  /*à     Cookie: mstshash=Administr" 400 -
+[29/Feb/2024 08:44:11] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Feb/2024 08:47:47] "GET / HTTP/1.0" 400 65082
+[29/Feb/2024 10:03:10] code 400, message Bad request version ('À\x14À')
+[29/Feb/2024 10:03:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 11:00:39] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 11:03:21] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 11:03:21,845] - Broken pipe from ('68.39.58.118', 47590)
+
+[29/Feb/2024 11:19:13] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 11:34:38] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 11:34:44,700] - Broken pipe from ('104.140.148.58', 62218)
+
+Invalid HTTP_HOST header: 'passport.baidu.com:80'. You may need to add 'passport.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/passport.baidu.com/
+[29/Feb/2024 12:38:43] "GET http://passport.baidu.com/ HTTP/1.1" 400 65030
+[29/Feb/2024 12:39:08] code 400, message Bad request syntax ('\x05\x01\x00')
+[29/Feb/2024 12:39:08] " " 400 -
+[29/Feb/2024 12:39:09] code 400, message Bad request syntax ('\x04\x01\x00Pg)§ê\x00')
+[29/Feb/2024 12:39:09] " Pg)§ê " 400 -
+Not Found: /api/.git/config
+[29/Feb/2024 13:01:34] "GET /api/.git/config HTTP/1.1" 404 2359
+Not Found: /bak/.git/config
+[29/Feb/2024 13:01:34] "GET /bak/.git/config HTTP/1.1" 404 2359
+Not Found: /git/.git/config
+[29/Feb/2024 13:01:34] "GET /git/.git/config HTTP/1.1" 404 2359
+Not Found: /backup/.git/config
+[29/Feb/2024 13:01:34] "GET /backup/.git/config HTTP/1.1" 404 2368
+Not Found: /.env
+[29/Feb/2024 13:35:36] "GET /.env HTTP/1.1" 404 2326
+[29/Feb/2024 13:35:37] "POST / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Feb/2024 13:35:57] "GET / HTTP/1.0" 400 65081
+[29/Feb/2024 13:52:55] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[29/Feb/2024 13:55:17] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /geoserver/web/
+[29/Feb/2024 13:56:07] "GET /geoserver/web/ HTTP/1.1" 404 2356
+[29/Feb/2024 14:41:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x959%c¹5}Û\x12z')
+[29/Feb/2024 14:41:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 14:56:06] "GET / HTTP/1.1" 200 2532
+Not Found: /.git/config
+[29/Feb/2024 15:07:58] "GET /.git/config HTTP/1.1" 404 2347
+Not Found: /3/3/3/3/3/3/3/3/3/3/3/3/3/3/3/3/
+[29/Feb/2024 15:57:49] "GET /3/3/3/3/3/3/3/3/3/3/3/3/3/3/3/3/ HTTP/1.1" 404 2410
+[29/Feb/2024 16:24:39] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[29/Feb/2024 17:23:09] "GET /.env HTTP/1.1" 404 2326
+[29/Feb/2024 17:39:33] code 400, message Bad request version ('À\x13À')
+[29/Feb/2024 17:39:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 17:39:33] code 400, message Bad request version ('À(À$À\x14À')
+[29/Feb/2024 17:39:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 18:18:01] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 18:26:05,502] - Broken pipe from ('167.248.133.124', 45658)
+
+[29/Feb/2024 18:26:08] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 18:26:08,978] - Broken pipe from ('167.248.133.124', 42818)
+
+[29/Feb/2024 18:26:12] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 18:26:12] code 505, message Invalid HTTP version (2.0)
+[29/Feb/2024 18:26:12] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[29/Feb/2024 18:26:13] "GET /favicon.ico HTTP/1.1" 404 2347
+[29/Feb/2024 18:47:03] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 18:47:04,021] - Broken pipe from ('64.226.98.208', 21155)
+
+[29/Feb/2024 18:50:29] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[29/Feb/2024 18:52:30] "GET /.env HTTP/1.1" 404 2326
+[29/Feb/2024 18:52:34] code 400, message Bad request version ('\x8885\x10\x10\x95Õ×·\x10ÌK/^\x00\x00\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+[29/Feb/2024 18:52:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Feb/2024 19:26:19] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /systembc/password.php
+[29/Feb/2024 20:05:55] "GET / HTTP/1.1" 200 2532
+Not Found: /site/.git/config
+[29/Feb/2024 20:23:05] "GET /site/.git/config HTTP/1.1" 404 2362
+Not Found: /staging/.git/config
+[29/Feb/2024 20:23:05] "GET /staging/.git/config HTTP/1.1" 404 2371
+Not Found: /wiki/.git/config
+[29/Feb/2024 20:23:05] "GET /wiki/.git/config HTTP/1.1" 404 2362
+Not Found: /store/.git/config
+[29/Feb/2024 20:23:05] "GET /store/.git/config HTTP/1.1" 404 2365
+[29/Feb/2024 20:23:05] "GET /static/.git/config HTTP/1.1" 404 1790
+Not Found: /inc/.git/config
+[29/Feb/2024 20:32:09] "GET /inc/.git/config HTTP/1.1" 404 2359
+Not Found: /source/.git/config
+[29/Feb/2024 20:32:09] "GET /source/.git/config HTTP/1.1" 404 2368
+Not Found: /test/.git/config
+[29/Feb/2024 20:32:09] "GET /test/.git/config HTTP/1.1" 404 2362
+[29/Feb/2024 22:22:56] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 22:49:12] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 22:50:37] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 23:37:55] "GET / HTTP/1.1" 200 2532
+[29/Feb/2024 23:53:59] "GET / HTTP/1.1" 200 2532
+Not Found: /dev/.git/config
+[01/Mar/2024 00:16:00] "GET /dev/.git/config HTTP/1.1" 404 2359
+Not Found: /samples/.git/config
+[01/Mar/2024 00:16:00] "GET /samples/.git/config HTTP/1.1" 404 2371
+Not Found: /flock/.git/config
+[01/Mar/2024 00:16:00] "GET /flock/.git/config HTTP/1.1" 404 2365
+Not Found: /live/.git/config
+[01/Mar/2024 00:16:00] "GET /live/.git/config HTTP/1.1" 404 2362
+Not Found: /repository/.git/config
+[01/Mar/2024 00:16:00] "GET /repository/.git/config HTTP/1.1" 404 2380
+[01/Mar/2024 01:03:15] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 01:28:41] "GET / HTTP/1.1" 200 2532
+Not Found: /.git/config
+[01/Mar/2024 01:40:39] "GET /.git/config HTTP/1.1" 404 2347
+[01/Mar/2024 02:11:48] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 03:05:13] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[01/Mar/2024 03:05:18] "GET /favicon.ico HTTP/1.1" 404 2347
+[01/Mar/2024 03:17:07] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 03:48:51] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 03:56:05] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 05:00:53] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[01/Mar/2024 06:43:26] "GET /.env HTTP/1.1" 404 2326
+[01/Mar/2024 06:43:27] "POST / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Mar/2024 06:50:17] "GET / HTTP/1.0" 400 65081
+[01/Mar/2024 08:03:33,475] - Broken pipe from ('167.94.145.51', 47316)
+
+[01/Mar/2024 08:03:36] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 08:03:37,097] - Broken pipe from ('167.94.145.51', 50204)
+
+[01/Mar/2024 08:03:40] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 08:03:40] code 505, message Invalid HTTP version (2.0)
+[01/Mar/2024 08:03:40] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[01/Mar/2024 08:03:41] "GET /favicon.ico HTTP/1.1" 404 2347
+[01/Mar/2024 08:15:48] "GET / HTTP/1.1" 200 2532
+Not Found: /libs/.git/config
+[01/Mar/2024 08:33:07] "GET /libs/.git/config HTTP/1.1" 404 2362
+Not Found: /admin/.git/config
+[01/Mar/2024 08:33:07] "GET /admin/.git/config HTTP/1.1" 404 2365
+Not Found: /temp/.git/config
+[01/Mar/2024 08:33:07] "GET /temp/.git/config HTTP/1.1" 404 2362
+[01/Mar/2024 08:38:24] code 400, message Bad request version ('À\x13À')
+[01/Mar/2024 08:38:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2024 08:38:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Í@\\å\x17\x95ï1"\x91¸³\x90U´03\x91ô\x03\x04aÅ\x19Úrü=Í@\x93í\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À\'À#À\x13À')
+[01/Mar/2024 08:38:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2024 08:46:51] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 09:12:09] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 09:12:13] "OPTIONS / HTTP/1.1" 200 2532
+[01/Mar/2024 09:29:47] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[01/Mar/2024 09:51:37] "GET /.env HTTP/1.1" 404 2326
+[01/Mar/2024 09:51:38] "POST / HTTP/1.1" 200 2532
+[01/Mar/2024 10:07:22] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 10:08:12] code 400, message Bad request version ("x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==")
+[01/Mar/2024 10:08:12] "145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==" 400 -
+Not Found: /service/.git/config
+[01/Mar/2024 10:19:05] "GET /service/.git/config HTTP/1.1" 404 2371
+Not Found: /service/.git/config
+[01/Mar/2024 10:19:05] "GET /service/.git/config HTTP/1.1" 404 2371
+Not Found: /cfg/.git/config
+[01/Mar/2024 10:19:05] "GET /cfg/.git/config HTTP/1.1" 404 2359
+[01/Mar/2024 10:32:49] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'azenv.net'. You may need to add 'azenv.net' to ALLOWED_HOSTS.
+Bad Request: /http:/azenv.net/
+[01/Mar/2024 10:58:06] "GET http://azenv.net/ HTTP/1.1" 400 65222
+Not Found: /includes/.git/config
+[01/Mar/2024 11:28:56] "GET /includes/.git/config HTTP/1.1" 404 2374
+Not Found: /sources/.git/config
+[01/Mar/2024 11:28:56] "GET /sources/.git/config HTTP/1.1" 404 2371
+Not Found: /src/.git/config
+[01/Mar/2024 11:28:56] "GET /src/.git/config HTTP/1.1" 404 2359
+[01/Mar/2024 11:55:32] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 12:05:50] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 12:11:29] code 400, message Bad request syntax ("\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03\x9bkÖ°ÌÇf\x19\x17\x9csPZ\x00¿÷@_Óï¾É³\x953ñTÌìê+\x11\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+[01/Mar/2024 12:11:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2024 12:13:52] code 400, message Bad request syntax ('\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03ü\x11µ´\x8f\x94×(\\(Ò')
+[01/Mar/2024 12:13:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2024 12:36:40] code 400, message Bad request version ('®¯]')
+[01/Mar/2024 12:36:40] "Gh0st­   à   xKS``ÃÀÀÀÄ@¼Q	H§e&§*$&g+2ö°00¬¨rc  \`&ÇK7ån9n;3¬èsch¨^Ï4'J©ã0Ãh]&øÎSËA4L?2=áÄ@õ`T®¯]" 400 -
+[01/Mar/2024 12:57:35] code 400, message Bad request version ('À\x14À')
+[01/Mar/2024 12:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2024 13:06:29] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 13:18:35] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 13:18:46,754] - Broken pipe from ('104.140.148.114', 62242)
+
+Not Found: /.env
+[01/Mar/2024 13:38:48] "GET /.env HTTP/1.1" 404 2326
+[01/Mar/2024 13:38:49] "POST / HTTP/1.1" 200 2532
+[01/Mar/2024 13:51:00] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Mar/2024 14:06:54] "GET / HTTP/1.0" 400 65081
+Not Found: /.env.bak
+[01/Mar/2024 14:10:22] "GET /.env.bak HTTP/1.1" 404 2338
+[01/Mar/2024 14:10:32] "POST / HTTP/1.1" 200 2532
+Not Found: /svc/.git/config
+[01/Mar/2024 14:31:59] "GET /svc/.git/config HTTP/1.1" 404 2359
+Not Found: /app/.git/config
+[01/Mar/2024 14:31:59] "GET /app/.git/config HTTP/1.1" 404 2359
+Not Found: /backend/.git/config
+[01/Mar/2024 14:31:59] "GET /backend/.git/config HTTP/1.1" 404 2371
+[01/Mar/2024 15:17:58] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 15:21:51,259] - Broken pipe from ('167.94.146.60', 36696)
+
+[01/Mar/2024 15:21:54] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 15:21:54,747] - Broken pipe from ('167.94.146.60', 35096)
+
+[01/Mar/2024 15:21:59] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 15:21:59] code 505, message Invalid HTTP version (2.0)
+[01/Mar/2024 15:21:59] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[01/Mar/2024 15:22:00] "GET /favicon.ico HTTP/1.1" 404 2347
+[01/Mar/2024 15:58:06] code 400, message Bad request version ('À\x13À')
+[01/Mar/2024 15:58:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2024 15:58:07] code 400, message Bad request version ('À(À$À\x14À')
+[01/Mar/2024 15:58:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2024 16:30:40] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 16:30:40] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[01/Mar/2024 16:30:40] "GET /favicon.ico HTTP/1.1" 404 2350
+Not Found: /robots.txt
+[01/Mar/2024 16:30:40] "GET /robots.txt HTTP/1.1" 404 2347
+[01/Mar/2024 16:30:40] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[01/Mar/2024 16:30:40] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[01/Mar/2024 16:30:40] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[01/Mar/2024 16:51:49] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 17:32:37] "GET / HTTP/1.1" 200 2532
+Not Found: /data/.git/config
+[01/Mar/2024 19:20:48] "GET /data/.git/config HTTP/1.1" 404 2362
+Not Found: /tmp/.git/config
+[01/Mar/2024 19:20:48] "GET /tmp/.git/config HTTP/1.1" 404 2359
+Not Found: /include/.git/config
+[01/Mar/2024 19:20:48] "GET /include/.git/config HTTP/1.1" 404 2371
+[01/Mar/2024 19:29:10] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 19:29:21,990] - Broken pipe from ('104.140.148.82', 64976)
+
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /systembc/password.php
+[01/Mar/2024 21:11:59] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 22:17:36] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 23:12:20] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 23:13:24] "GET / HTTP/1.1" 200 2532
+[01/Mar/2024 23:13:31] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[01/Mar/2024 23:14:21] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /geoserver/web/
+[01/Mar/2024 23:15:00] "GET /geoserver/web/ HTTP/1.1" 404 2356
+[01/Mar/2024 23:16:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[01/Mar/2024 23:16:15] "  /*à     Cookie: mstshash=Administr" 400 -
+[01/Mar/2024 23:26:13] "GET / HTTP/1.1" 200 2532
+----------------------------------------
+Exception happened during processing of request from ('172.104.210.105', 45693)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+Not Found: /cgi-bin/authLogin.cgi
+[02/Mar/2024 00:57:35] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 2377
+[02/Mar/2024 01:25:27] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 01:26:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[02/Mar/2024 01:26:12] "  /*à     Cookie: mstshash=Administr" 400 -
+[02/Mar/2024 02:23:19] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 02:28:06] "GET / HTTP/1.1" 200 2532
+Not Found: /explicit_not_exist_path
+[02/Mar/2024 02:28:06] "GET /explicit_not_exist_path HTTP/1.1" 404 2383
+Not Found: /admin/
+[02/Mar/2024 02:28:07] "GET /admin/ HTTP/1.1" 404 2332
+Not Found: /robots.txt
+[02/Mar/2024 02:28:07] "GET /robots.txt HTTP/1.1" 404 2344
+Not Found: /favicon.ico
+[02/Mar/2024 02:28:07] "GET /favicon.ico HTTP/1.1" 404 2347
+[02/Mar/2024 02:28:07] "GET /static/img/favicon.ico HTTP/1.1" 404 1802
+Not Found: /status
+[02/Mar/2024 02:28:07] "GET /status HTTP/1.1" 404 2332
+Not Found: /api/v1/query
+[02/Mar/2024 02:28:07] "GET /api/v1/query?query=prometheus_build_info HTTP/1.1" 404 2378
+Not Found: /images/ofbiz.ico
+[02/Mar/2024 02:28:07] "GET /images/ofbiz.ico HTTP/1.1" 404 2362
+[02/Mar/2024 02:28:07] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[02/Mar/2024 02:28:07] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[02/Mar/2024 02:28:07] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[02/Mar/2024 02:28:08] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1820
+[02/Mar/2024 02:28:08] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1838
+[02/Mar/2024 02:28:08] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[02/Mar/2024 02:28:08] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[02/Mar/2024 02:28:08] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /phpMyAdmin/
+[02/Mar/2024 02:28:08] "GET /phpMyAdmin/ HTTP/1.1" 404 2347
+Not Found: /phpmyadmin/
+[02/Mar/2024 02:28:08] "GET /phpmyadmin/ HTTP/1.1" 404 2347
+Not Found: /wcm/
+[02/Mar/2024 02:28:08] "GET /wcm/ HTTP/1.1" 404 2326
+[02/Mar/2024 02:55:39] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 03:16:11] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Mar/2024 03:46:52] "GET / HTTP/1.0" 400 65082
+[02/Mar/2024 04:10:11] code 400, message Bad request syntax ('MGLNDD_8.142.41.185_80')
+[02/Mar/2024 04:10:11] "MGLNDD_8.142.41.185_80" 400 -
+[02/Mar/2024 04:51:12] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'azenv.net'. You may need to add 'azenv.net' to ALLOWED_HOSTS.
+Bad Request: /http:/azenv.net/
+[02/Mar/2024 04:52:28] "GET http://azenv.net/ HTTP/1.1" 400 65222
+[02/Mar/2024 05:32:42] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 05:40:21] code 400, message Bad request version ('À\x14À')
+[02/Mar/2024 05:40:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2024 05:40:22] code 400, message Bad request version ('À\x14À')
+[02/Mar/2024 05:40:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2024 05:40:22] "GET / HTTP/1.1" 200 2532
+Not Found: /form.html
+[02/Mar/2024 05:40:23] "GET /form.html HTTP/1.1" 404 2341
+Not Found: /upl.php
+[02/Mar/2024 05:40:24] "GET /upl.php HTTP/1.1" 404 2335
+[02/Mar/2024 05:40:25] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x034Oýê~O0ÕPd³¤é\x99â\x93\x94NX\x01\x90ÅµÌ\x04Q¦ñAí\x90î\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[02/Mar/2024 05:40:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /geoip/
+[02/Mar/2024 05:40:26] "GET /geoip/ HTTP/1.1" 404 2332
+Not Found: /favicon.ico
+[02/Mar/2024 05:40:27] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /1.php
+[02/Mar/2024 05:40:28] "GET /1.php HTTP/1.1" 404 2329
+Not Found: /bundle.js
+[02/Mar/2024 05:40:29] "GET /bundle.js HTTP/1.1" 404 2341
+Not Found: /files/
+[02/Mar/2024 05:40:30] "GET /files/ HTTP/1.1" 404 2332
+Not Found: /systembc/password.php
+[02/Mar/2024 05:40:31] "GET /systembc/password.php HTTP/1.1" 404 2377
+Not Found: /password.php
+[02/Mar/2024 05:40:32] "GET /password.php HTTP/1.1" 404 2350
+Not Found: /info.php
+[02/Mar/2024 05:40:33] "GET /info.php HTTP/1.1" 404 2338
+[02/Mar/2024 05:42:11] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'webcaclub.gq'. You may need to add 'webcaclub.gq' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Mar/2024 05:48:17] "GET / HTTP/1.1" 400 66440
+[02/Mar/2024 05:51:18] code 400, message Bad request version ('À\x13À')
+[02/Mar/2024 05:51:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2024 05:51:18] code 400, message Bad request version ('À(À$À\x14À')
+[02/Mar/2024 05:51:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /admin/login.asp
+[02/Mar/2024 05:51:21] "GET /admin/login.asp HTTP/1.1" 404 2362
+[02/Mar/2024 05:51:21] code 400, message Bad request syntax ('username=admin&psd=Feefifofum')
+[02/Mar/2024 05:51:21] "username=admin&psd=Feefifofum" 400 -
+[02/Mar/2024 05:55:58] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 05:56:07] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[02/Mar/2024 05:56:15] "GET /favicon.ico HTTP/1.1" 404 2347
+[02/Mar/2024 06:10:53] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 06:11:14] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[02/Mar/2024 06:11:14] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[02/Mar/2024 06:11:14] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[02/Mar/2024 06:11:58] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[02/Mar/2024 06:11:58] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[02/Mar/2024 06:11:58] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[02/Mar/2024 06:30:32,596] - Broken pipe from ('167.94.138.51', 39824)
+
+[02/Mar/2024 06:30:35] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 06:30:36,105] - Broken pipe from ('167.94.138.51', 37526)
+
+[02/Mar/2024 06:30:39] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 06:30:40] code 505, message Invalid HTTP version (2.0)
+[02/Mar/2024 06:30:40] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[02/Mar/2024 06:30:40] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /actuator/health
+[02/Mar/2024 07:22:52] "GET /actuator/health HTTP/1.1" 404 2359
+[02/Mar/2024 08:13:00] "GET / HTTP/1.1" 200 2532
+Not Found: /explicit_not_exist_path
+[02/Mar/2024 08:13:01] "GET /explicit_not_exist_path HTTP/1.1" 404 2383
+Not Found: /admin/
+[02/Mar/2024 08:13:01] "GET /admin/ HTTP/1.1" 404 2332
+Not Found: /robots.txt
+[02/Mar/2024 08:13:01] "GET /robots.txt HTTP/1.1" 404 2344
+Not Found: /favicon.ico
+[02/Mar/2024 08:13:01] "GET /favicon.ico HTTP/1.1" 404 2347
+[02/Mar/2024 08:13:01] "GET /static/img/favicon.ico HTTP/1.1" 404 1802
+Not Found: /status
+[02/Mar/2024 08:13:01] "GET /status HTTP/1.1" 404 2332
+Not Found: /api/v1/query
+[02/Mar/2024 08:13:01] "GET /api/v1/query?query=prometheus_build_info HTTP/1.1" 404 2378
+Not Found: /images/ofbiz.ico
+[02/Mar/2024 08:13:01] "GET /images/ofbiz.ico HTTP/1.1" 404 2362
+[02/Mar/2024 08:13:01] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[02/Mar/2024 08:13:01] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[02/Mar/2024 08:13:02] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[02/Mar/2024 08:13:02] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1820
+[02/Mar/2024 08:13:02] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1838
+[02/Mar/2024 08:13:02] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[02/Mar/2024 08:13:02] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[02/Mar/2024 08:13:02] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /phpMyAdmin/
+[02/Mar/2024 08:13:02] "GET /phpMyAdmin/ HTTP/1.1" 404 2347
+Not Found: /phpmyadmin/
+[02/Mar/2024 08:13:02] "GET /phpmyadmin/ HTTP/1.1" 404 2347
+Not Found: /wcm/
+[02/Mar/2024 08:13:02] "GET /wcm/ HTTP/1.1" 404 2326
+Not Found: /GponForm/diag_Form
+[02/Mar/2024 08:35:17] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 2377
+[02/Mar/2024 08:35:18,515] - Broken pipe from ('85.105.94.145', 4380)
+
+[02/Mar/2024 08:38:40] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 08:38:50,953] - Broken pipe from ('170.130.204.10', 63242)
+
+[02/Mar/2024 09:03:22] "GET / HTTP/1.1" 200 2532
+Not Found: /hudson
+[02/Mar/2024 09:03:40] "GET /hudson HTTP/1.1" 404 2332
+Not Found: /portal/redlion
+[02/Mar/2024 10:24:22] "GET /portal/redlion HTTP/1.1" 404 2356
+Invalid HTTP_HOST header: 'azenv.net'. You may need to add 'azenv.net' to ALLOWED_HOSTS.
+Bad Request: /http:/azenv.net/
+[02/Mar/2024 11:01:28] "GET http://azenv.net/ HTTP/1.1" 400 65222
+Not Found: /.env
+[02/Mar/2024 11:40:34] "GET /.env HTTP/1.1" 404 2326
+[02/Mar/2024 11:40:34] code 400, message Bad request version ('ÇÜ[:\x8aÀp$\x86±yÉ9Ñ÷ì\x8c#\x18\x8aÉìÈÚ9\x00-<³\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+[02/Mar/2024 11:40:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2024 12:02:09] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 12:02:31] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[02/Mar/2024 12:02:31] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[02/Mar/2024 12:02:31] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[02/Mar/2024 12:03:15] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[02/Mar/2024 12:03:15] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[02/Mar/2024 12:03:15] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[02/Mar/2024 12:23:30] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[02/Mar/2024 14:10:51] "GET /.env HTTP/1.1" 404 2326
+[02/Mar/2024 14:10:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01H\x01\x00\x01D\x03\x03Ì¤âCÕq')
+[02/Mar/2024 14:10:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2024 14:21:05] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 14:21:26] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[02/Mar/2024 14:21:26] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[02/Mar/2024 14:21:26] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[02/Mar/2024 14:21:51] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[02/Mar/2024 14:21:51] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[02/Mar/2024 14:21:51] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[02/Mar/2024 14:50:47] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 15:05:45] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 15:08:45] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 15:26:03] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 15:53:00] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'azenv.net'. You may need to add 'azenv.net' to ALLOWED_HOSTS.
+Bad Request: /http:/azenv.net/
+[02/Mar/2024 15:57:56] "GET http://azenv.net/ HTTP/1.1" 400 65222
+[02/Mar/2024 16:07:31] "HEAD / HTTP/1.1" 200 2532
+[02/Mar/2024 16:07:31] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 16:07:31,751] - Broken pipe from ('203.223.130.115', 52399)
+
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Mar/2024 16:28:38] "GET / HTTP/1.0" 400 65082
+Invalid HTTP_HOST header: 'azenv.net'. You may need to add 'azenv.net' to ALLOWED_HOSTS.
+Bad Request: /http:/azenv.net/
+[02/Mar/2024 16:45:55] "GET http://azenv.net/ HTTP/1.1" 400 65222
+[02/Mar/2024 17:31:28] code 400, message Bad request version ('Èíä\x01:ð4\x1b\x04f\x11Ö')
+[02/Mar/2024 17:31:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2024 17:31:28] code 400, message Bad request version ('À(À$À\x14À')
+[02/Mar/2024 17:31:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2024 17:32:15] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 18:03:15] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 18:24:35] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[02/Mar/2024 18:27:05] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /geoserver/web/
+[02/Mar/2024 18:27:57] "GET /geoserver/web/ HTTP/1.1" 404 2356
+Invalid HTTP_HOST header: 'webcaclub.gq'. You may need to add 'webcaclub.gq' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Mar/2024 18:36:22] "GET / HTTP/1.1" 400 66440
+[02/Mar/2024 18:40:21] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'webcaclub.gq'. You may need to add 'webcaclub.gq' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Mar/2024 19:06:50] "GET / HTTP/1.1" 400 66439
+[02/Mar/2024 20:16:37] "GET / HTTP/1.1" 200 2532
+Not Found: /cgi-bin/login
+[02/Mar/2024 20:41:28] "GET /cgi-bin/login HTTP/1.1" 404 2353
+[02/Mar/2024 21:04:51,772] - Broken pipe from ('167.94.145.53', 56548)
+
+[02/Mar/2024 21:04:54] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 21:04:55,073] - Broken pipe from ('167.94.145.53', 37452)
+
+[02/Mar/2024 21:04:58] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 21:04:58] code 505, message Invalid HTTP version (2.0)
+[02/Mar/2024 21:04:58] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[02/Mar/2024 21:04:59] "GET /favicon.ico HTTP/1.1" 404 2347
+[02/Mar/2024 21:24:42] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[02/Mar/2024 21:24:42] "  /*à     Cookie: mstshash=Administr" 400 -
+[02/Mar/2024 21:34:29] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ºå³cÞ#\x14¡\x9d\x84\x11/\x10\x12"¸\x109óDë\x95\x06ÅÊäÍ\xad>§&½\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[02/Mar/2024 21:34:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2024 21:50:24] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 21:56:27] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 22:08:30] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 22:13:11] "GET / HTTP/1.1" 200 2532
+[02/Mar/2024 22:20:58] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[02/Mar/2024 22:29:24] "GET /.env HTTP/1.1" 404 2326
+[02/Mar/2024 23:29:37] code 400, message Bad request syntax ('\x04\x01\x00Pg)§ê\x00')
+[02/Mar/2024 23:29:37] " Pg)§ê " 400 -
+Invalid HTTP_HOST header: 'passport.baidu.com:80'. You may need to add 'passport.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/passport.baidu.com/
+[02/Mar/2024 23:29:52] "GET http://passport.baidu.com/ HTTP/1.1" 400 65029
+[02/Mar/2024 23:29:57] code 400, message Bad request syntax ('\x05\x01\x00')
+[02/Mar/2024 23:29:57] " " 400 -
+Not Found: /.env
+[03/Mar/2024 00:01:16] "GET /.env HTTP/1.1" 404 2326
+Not Found: /boaform/admin/formLogin
+[03/Mar/2024 00:13:55] "POST /boaform/admin/formLogin HTTP/1.1" 404 2387
+[03/Mar/2024 00:21:33] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Mar/2024 01:01:03] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 01:01:25] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[03/Mar/2024 01:01:25] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[03/Mar/2024 01:01:25] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[03/Mar/2024 01:02:08] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[03/Mar/2024 01:02:08] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[03/Mar/2024 01:02:08] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+Not Found: /http:/8.142.41.185/
+[03/Mar/2024 02:04:58] "GET http://8.142.41.185/ HTTP/1.1" 404 1802
+[03/Mar/2024 02:30:37] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 02:32:39] "GET / HTTP/1.1" 200 2532
+Not Found: /explicit_not_exist_path
+[03/Mar/2024 02:32:39] "GET /explicit_not_exist_path HTTP/1.1" 404 2383
+Not Found: /admin/
+[03/Mar/2024 02:32:39] "GET /admin/ HTTP/1.1" 404 2332
+Not Found: /robots.txt
+[03/Mar/2024 02:32:39] "GET /robots.txt HTTP/1.1" 404 2344
+Not Found: /favicon.ico
+[03/Mar/2024 02:32:39] "GET /favicon.ico HTTP/1.1" 404 2347
+[03/Mar/2024 02:32:39] "GET /static/img/favicon.ico HTTP/1.1" 404 1802
+Not Found: /status
+[03/Mar/2024 02:32:39] "GET /status HTTP/1.1" 404 2332
+Not Found: /api/v1/query
+[03/Mar/2024 02:32:39] "GET /api/v1/query?query=prometheus_build_info HTTP/1.1" 404 2378
+Not Found: /images/ofbiz.ico
+[03/Mar/2024 02:32:39] "GET /images/ofbiz.ico HTTP/1.1" 404 2362
+[03/Mar/2024 02:32:39] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[03/Mar/2024 02:32:40] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[03/Mar/2024 02:32:40] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[03/Mar/2024 02:32:40] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1820
+[03/Mar/2024 02:32:40] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1838
+[03/Mar/2024 02:32:40] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[03/Mar/2024 02:32:40] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[03/Mar/2024 02:32:40] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /phpMyAdmin/
+[03/Mar/2024 02:32:40] "GET /phpMyAdmin/ HTTP/1.1" 404 2347
+Not Found: /phpmyadmin/
+[03/Mar/2024 02:32:40] "GET /phpmyadmin/ HTTP/1.1" 404 2347
+Not Found: /wcm/
+[03/Mar/2024 02:32:40] "GET /wcm/ HTTP/1.1" 404 2326
+[03/Mar/2024 02:35:54] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 02:36:07] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[03/Mar/2024 02:36:07] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[03/Mar/2024 02:36:07] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[03/Mar/2024 02:36:30] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[03/Mar/2024 02:36:30] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[03/Mar/2024 02:36:30] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+Not Found: /http:/8.142.41.185/
+[03/Mar/2024 03:03:59] "GET http://8.142.41.185/ HTTP/1.1" 404 1802
+[03/Mar/2024 03:07:42] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /boaform/admin/formLogin
+[03/Mar/2024 03:36:46] "GET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0" 400 65067
+Not Found: /druid/index.html
+[03/Mar/2024 05:40:12] "GET /druid/index.html HTTP/1.1" 404 2362
+[03/Mar/2024 05:40:48] "GET / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'webcaclub.gq'. You may need to add 'webcaclub.gq' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Mar/2024 05:43:17] "GET / HTTP/1.1" 400 66296
+[03/Mar/2024 06:17:21] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 06:17:42] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[03/Mar/2024 06:17:42] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[03/Mar/2024 06:17:42] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+Not Found: /manager/text/list
+[03/Mar/2024 06:18:02] "GET /manager/text/list HTTP/1.1" 404 2365
+[03/Mar/2024 06:18:05] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[03/Mar/2024 06:18:05] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[03/Mar/2024 06:18:05] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+Not Found: /.env
+[03/Mar/2024 07:02:37] "GET /.env HTTP/1.1" 404 2326
+[03/Mar/2024 07:02:37] "POST / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Mar/2024 07:04:25] "GET / HTTP/1.0" 400 65082
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Mar/2024 07:25:00] "GET / HTTP/1.0" 400 65081
+Not Found: /.env
+[03/Mar/2024 08:00:23] "GET /.env HTTP/1.1" 404 2326
+[03/Mar/2024 08:00:23] code 400, message Bad request version ('ê\x18-á\x04`\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+[03/Mar/2024 08:00:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2024 08:09:03] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[03/Mar/2024 08:11:15] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /geoserver/web/
+[03/Mar/2024 08:12:05] "GET /geoserver/web/ HTTP/1.1" 404 2356
+Invalid HTTP_HOST header: 'passport.baidu.com:80'. You may need to add 'passport.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/passport.baidu.com/
+[03/Mar/2024 08:15:59] "GET http://passport.baidu.com/ HTTP/1.1" 400 65029
+[03/Mar/2024 08:16:06] code 400, message Bad request syntax ('\x05\x01\x00')
+[03/Mar/2024 08:16:06] " " 400 -
+[03/Mar/2024 08:16:11] code 400, message Bad request syntax ('\x04\x01\x00Pg)§ê\x00')
+[03/Mar/2024 08:16:11] " Pg)§ê " 400 -
+[03/Mar/2024 08:25:59] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 09:36:12] code 400, message Bad request syntax ('MGLNDD_8.142.41.185_80')
+[03/Mar/2024 09:36:12] "MGLNDD_8.142.41.185_80" 400 -
+[03/Mar/2024 09:42:26] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 09:46:52] code 400, message Bad request version ('À\x14À')
+[03/Mar/2024 09:46:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /boaform/admin/formLogin
+[03/Mar/2024 09:57:43] "GET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0" 400 65065
+Not Found: /../../mnt/mtd/Config/Account1
+[03/Mar/2024 10:35:58] "GET /../../mnt/mtd/Config/Account1 HTTP/1.1" 404 2395
+[03/Mar/2024 10:36:41,736] - Broken pipe from ('167.94.146.60', 46106)
+
+[03/Mar/2024 10:36:44] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 10:36:45,238] - Broken pipe from ('167.94.146.60', 53352)
+
+[03/Mar/2024 10:36:48] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 10:36:49] code 505, message Invalid HTTP version (2.0)
+[03/Mar/2024 10:36:49] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[03/Mar/2024 10:36:49] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /hudson
+[03/Mar/2024 11:02:58] "GET /hudson HTTP/1.1" 404 2332
+[03/Mar/2024 11:04:18] "GET / HTTP/1.1" 200 2532
+Not Found: /../../mnt/mtd/Config/Account2
+[03/Mar/2024 11:18:12] "GET /../../mnt/mtd/Config/Account2 HTTP/1.1" 404 2395
+[03/Mar/2024 12:02:37] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 12:15:59] code 400, message Bad request version ('À\x13À')
+[03/Mar/2024 12:15:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2024 12:16:00] code 400, message Bad request version ('À(À$À\x14À')
+[03/Mar/2024 12:16:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2024 12:56:08] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 13:26:25] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03\x05ÃÐ¼*®àC\x7fý9')
+[03/Mar/2024 13:26:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2024 14:51:54] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 15:19:03] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+[03/Mar/2024 15:19:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2024 15:19:14] "GET / HTTP/1.1" 200 2532
+Not Found: /favicon.ico
+[03/Mar/2024 15:19:32] "GET /favicon.ico HTTP/1.1" 404 2347
+Not Found: /robots.txt
+[03/Mar/2024 15:19:33] "GET /robots.txt HTTP/1.1" 404 2344
+Not Found: /sitemap.xml
+[03/Mar/2024 15:19:34] "GET /sitemap.xml HTTP/1.1" 404 2347
+[03/Mar/2024 15:19:34] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[03/Mar/2024 15:19:34] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[03/Mar/2024 15:19:35] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[03/Mar/2024 15:28:37] "GET / HTTP/1.1" 200 2532
+Not Found: /druid/index.html
+[03/Mar/2024 15:44:07] "GET /druid/index.html HTTP/1.1" 404 2362
+Not Found: /ReportServer
+[03/Mar/2024 16:09:09] "GET /ReportServer HTTP/1.1" 404 2350
+[03/Mar/2024 17:23:22] code 400, message Bad request version ('@k1S¶=\x94')
+[03/Mar/2024 17:23:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2024 17:23:22] code 400, message Bad request version ('À(À$À\x14À')
+[03/Mar/2024 17:23:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2024 17:27:50] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03N°¼"ðý\x10\x92á?Ù19_b,T\x18{C+°ÿÃà\x0eA\x17')
+[03/Mar/2024 17:27:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2024 17:46:50] "GET / HTTP/1.1" 200 2532
+Not Found: /.env
+[03/Mar/2024 18:25:40] "GET /.env HTTP/1.1" 404 2326
+[03/Mar/2024 18:25:40] "POST / HTTP/1.1" 200 2532
+Not Found: /.env
+[03/Mar/2024 18:28:22] "GET /.env HTTP/1.1" 404 2326
+[03/Mar/2024 18:28:23] "POST / HTTP/1.1" 200 2532
+[03/Mar/2024 18:43:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[03/Mar/2024 18:43:45] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /systembc/password.php
+[03/Mar/2024 19:55:09] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 20:33:50] code 400, message Bad request version ('["cpuminer/2.5.1"]}')
+[03/Mar/2024 20:33:50] "{"id": 1, "method": "mining.subscribe", "params": ["cpuminer/2.5.1"]}" 400 -
+[03/Mar/2024 20:33:56] code 400, message Bad request version ('"EthereumStratum/1.0.0"]}')
+[03/Mar/2024 20:33:56] "{"id": 1, "method": "mining.subscribe", "params": ["MinerName/1.0.0", "EthereumStratum/1.0.0"]}" 400 -
+[03/Mar/2024 20:33:58] code 400, message Bad request syntax ('{"id":1,"method":"eth_submitLogin","worker":"igwrcvap","params":["0x946942653dabe58b2cbdcfe0bd2e55ca058c7e44","x"],"jsonrpc":"2.0"}')
+[03/Mar/2024 20:33:58] "{"id":1,"method":"eth_submitLogin","worker":"igwrcvap","params":["0x946942653dabe58b2cbdcfe0bd2e55ca058c7e44","x"],"jsonrpc":"2.0"}" 400 -
+[03/Mar/2024 20:34:00] code 400, message Bad request version ('msvc/2019","algo":["cn/1","cn/2","cn/r","cn/fast","cn/half","cn/xao","cn/rto","cn/rwz","cn/zls","cn/double","cn/ccx","cn-lite/1","cn-heavy/0","cn-heavy/tube","cn-heavy/xhv","cn-pico","cn-pico/tlo","cn/upx2","rx/0","rx/wow","rx/arq","rx/graft","rx/sfx","rx/keva","argon2/chukwa","argon2/chukwav2","argon2/ninja","astrobwt"]}}')
+[03/Mar/2024 20:34:00] "{"id":1,"jsonrpc":"2.0","method":"login","params":{"login":"4AveNFs7wGsYPiupzeqFdJh1EpDkWmRTPMVzoRXr7ApH6gahTZyYNoGCtWzvms176EeApXomvtU6QZf2Tnjbjg94PxUfL4k","pass":"x","agent":"XMRig/6.15.3 (Windows NT 10.0; Win64; x64) libuv/1.42.0 msvc/2019","algo":["cn/1","cn/2","cn/r","cn/fast","cn/half","cn/xao","cn/rto","cn/rwz","cn/zls","cn/double","cn/ccx","cn-lite/1","cn-heavy/0","cn-heavy/tube","cn-heavy/xhv","cn-pico","cn-pico/tlo","cn/upx2","rx/0","rx/wow","rx/arq","rx/graft","rx/sfx","rx/keva","argon2/chukwa","argon2/chukwav2","argon2/ninja","astrobwt"]}}" 400 -
+[03/Mar/2024 20:34:03] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 20:34:07] "POST / HTTP/1.1" 200 2532
+[03/Mar/2024 20:34:08] "POST / HTTP/1.1" 200 2532
+Not Found: /WuEL
+[03/Mar/2024 20:34:11] "GET /WuEL HTTP/1.1" 404 2326
+Not Found: /stager64
+[03/Mar/2024 20:34:13] "GET stager64 HTTP/1.1" 404 1767
+Not Found: /a
+[03/Mar/2024 20:34:14] "GET /a HTTP/1.1" 404 2317
+Not Found: /download/file.ext
+[03/Mar/2024 20:34:16] "GET /download/file.ext HTTP/1.1" 404 2365
+Not Found: /SiteLoader
+[03/Mar/2024 20:34:19] "GET /SiteLoader HTTP/1.1" 404 2344
+Not Found: /mPlayer
+[03/Mar/2024 20:34:20] "GET /mPlayer HTTP/1.1" 404 2335
+[03/Mar/2024 20:34:33] "POST / HTTP/1.1" 200 2532
+Invalid HTTP_HOST header: 'bookmake.cc'. You may need to add 'bookmake.cc' to ALLOWED_HOSTS.
+Bad Request: /s.php
+[03/Mar/2024 21:50:30] "GET /s.php HTTP/1.1" 400 65056
+[03/Mar/2024 21:52:04] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 21:52:26] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[03/Mar/2024 21:52:26] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[03/Mar/2024 21:52:26] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[03/Mar/2024 21:53:05] "GET / HTTP/1.1" 200 2532
+[03/Mar/2024 21:53:11] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[03/Mar/2024 21:53:11] "GET /static/js/aichat.min.js HTTP/1.1" 200 936
+[03/Mar/2024 21:53:11] "GET /static/js/aichatajax.min.js HTTP/1.1" 200 879
+[03/Mar/2024 22:10:17] "GET / HTTP/1.1" 200 2532
+/home/Aichat/Aichat/urls.py changed, reloading.

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>smile</title>
+    <script src="{% static 'js/jquery-3.3.1.min.js'%}"></script>
+    <script src="{% static 'js/aichatajax.min.js'%}"></script>
+    <link rel="stylesheet" href="{% static 'css/infer.min.css' %}">
+    <script src="{% static 'js/infer.min.js' %}"></script>
+{#    <script src="{% static 'js/datatables.min.js' %}"></script>#}
+</head>
+<body>
+<nav>
+    <ul class="nav">
+        <li><a href="{% url 'chat:index' %}">首页</a></li>
+        <li><a href="{% url 'infer:index' %}">推理</a></li>
+    </ul>
+</nav>
+<nav>
+    <ul class="nav2">
+        <li class="parameter-choice">
+            <div class="model-choice">
+                        <form action="">
+                        模型：
+                        <select id="model_select">
+                        {% for model in models %}
+                            <option id="model_name">{{ model.name }}</option>
+                        {% endfor %}
+                        </select>
+                    </form>
+            </div>
+            <div class="text-choice">
+                <form action="">
+                    测试集：
+                    <select id="text_select">
+                        {% for text_file in text_files %}
+                            <option id="text_file">{{ text_file.name }}</option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </div>
+            <div class="type-choice">
+                <form action="">
+                    类别：
+                    <select id="type_select">
+                        {% for type in args.types %}
+                            <option id="type">{{ type }}</option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </div>
+            <div class="prompt-choice">
+                <form action="">
+                    prompt：
+                    <select id="prompt_select">
+                        {% for prompt_type in args.prompt_types %}
+                            <option id="prompt">{{ prompt_type }}</option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </div>
+            <div class="thread-choice">
+                <form action="">
+                    线程数量：
+                    <select id="thread_select">
+                        {% for thread in threads %}
+                            <option id="thread">{{ thread.num }}</option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </div>
+            <div class="send-args">
+                <button class="submit-args-btn">发送</button>
+            </div>
+            <div class="parameters-choice">
+                <form action="">
+                    新增参数：
+                    <select id="parameters_select">
+                        {% for parameter in args.parameters %}
+                            <option id="parameter">{{ parameter }}</option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </div>
+            <div class="input-args">
+                <input id='input-content' type="text" value="" size="10" Maxlength="100">
+            </div>
+            <div class="input-args2">
+                <form id="uploadForm" action="/infer/add_args2/" method="post" enctype="multipart/form-data">
+                    <input type="file" name="myfile">
+                    <input type="submit" name="提交">
+                </form>
+            </div>
+            <div class="send-config">
+                <button class="submit-config-btn">提交</button>
+            </div>
+        </li>
+    </ul>
+</nav>
+<table id="infers">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>模型名称</th>
+                <th>测试集</th>
+                <th>时间</th>
+                <th>状态</th>
+                <th>开始任务</th>
+                <th>删除任务</th>
+                <th>下载</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for infer in infers %}
+                <tr>
+                    <td>{{ infer.id }}</td>
+                    <td>{{ infer.name }}</td>
+                    <td>{{ infer.file }}</td>
+                    <td>{{ infer.create_time }}</td>
+                    <td infer-id="{{ infer.id }}">{{ infer.status }}</td>
+                    <td><button class="btn btn-danger btn-xs begain-btn" infer-id="{{ infer.id }}">开始</button></td>
+                    <td><button class="btn btn-danger btn-xs delete-btn" infer-id="{{ infer.id }}">删除</button></td>
+{#                    <td><button class="btn btn-danger btn-xs download-btn" infer-id="{{ infer.id }}">下载</button></td>#}
+                    <td><form action="/infer/download/" method="post" >
+                        <input type="hidden" name='orderid' value={{ infer.id }}>
+                        <input type="submit" value="点击下载">
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

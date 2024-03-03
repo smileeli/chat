@@ -1,0 +1,71 @@
+{% load my_filter %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>smile</title>
+    <script src="{% static 'js/jquery-3.3.1.min.js'%}"></script>
+    <script src="{% static 'js/aichatajax.min.js'%}"></script>
+    <link rel="stylesheet" href="{% static 'css/aichat.min.css' %}">
+    <script src="{% static 'js/aichat.min.js' %}"></script>
+</head>
+<body>
+{#    <header class="header">#}
+{#        <div class="container">#}
+{#        </div>#}
+{#    </header>#}
+    <nav>
+        <ul class="nav">
+            <li><a href="{% url 'chat:index' %}">首页</a></li>
+            <li><a href="{% url 'infer:index' %}">推理</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="wrapper">
+            <div class="main-content-wrapper">
+                <div class="news-wrapper">
+                    <div class="model-choice">
+                        <form action="">
+                        模型名称：
+                        <select id="model_select">
+                        {% for model in models %}
+                            <option id="model_name">{{ model }}</option>
+                        {% endfor %}
+                        </select>
+                    </form>
+                    </div>
+                    <div class="prompt-choice">
+                        <form action="">
+                        prompt：
+                        <select id="prompt_select">
+                        {% for prompt in prompts %}
+                            <option id="prompt_name">{{ prompt }}</option>
+                        {% endfor %}
+                        </select>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-wrapper">
+                <div class="modle-wrapper">
+                    <h1 class="title" id="model_title">{{ models.0 }}</h1>
+                </div>
+                <div class="prompt-wrapper">
+                    <h3 class="title">prompt:</h3>
+                    <textarea name="prompt-text" class="prompt-textarea" placeholder="请输入～">{{ prompts.0 }}</textarea>
+                </div>
+                <div class="text-wrapper">
+                    <textarea name="query" class="comment-textarea" placeholder="请输入问题～" ></textarea>
+                    <div class="submit-btn-group">
+                        <button class="submit-btn">发送</button>
+                    </div>
+                </div>
+                <div class="response-wrapper">
+                    <p class="response-content">1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

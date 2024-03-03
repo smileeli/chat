@@ -1,0 +1,144 @@
+@import "header";
+@import "footer";
+@import "init";
+@import "constants";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background: $themeColor;
+    height: 65px;
+    overflow: hidden;
+}
+
+.nav li{
+    float: left;
+    list-style: none;
+    margin: 0 20px;
+    line-height: 65px;
+}
+
+.nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    color: lightblue;
+}
+
+
+.nav2 {
+    background: #f8f3f3;
+    height: 100px;
+    overflow: hidden;
+    .parameter-choice {
+        margin: 0 20px;
+        list-style: none;
+        margin: 0 20px;
+        .model-choice {
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+        .text-choice {
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 20px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+        .type-choice {
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 20px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+        .prompt-choice {
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 20px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+        .thread-choice {
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 20px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+        .send-args {
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 20px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+        .parameters-choice {
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 50px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+        .input-args {
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 5px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+        .input-args2 {
+            display: none;
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 5px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+        .send-config {
+            float: left;
+            height: 50px;
+            line-height: $newsInfoHeight;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 5px;
+            color: $assistFontColor;
+            font-size: 14px;
+        }
+    }
+}
